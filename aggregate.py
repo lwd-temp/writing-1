@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import cached_url
 
 def getContent(url):
-	content = cached_url.get(url, {'cookie': credential['cookie']})
+	content = cached_url.get(url)
 	b = BeautifulSoup(content, 'html.parser')
 	text = b.find('div', {'id': 'container'}).text
 	title = b.find('h1').text
