@@ -18,8 +18,7 @@ def getContent(url):
 	return b.get_text(separator="\n"), content['title'], next_url
 
 
-def download(url):
-	filename = None
+def download(url, filename = None):
 	content = []
 	while url:
 		text, title, url = getContent(url + '?json=1')
@@ -29,4 +28,6 @@ def download(url):
 		with open(filename, 'w') as f:
 			f.write('\n\n=======\n\n'.join(content))
 
-download('https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw')
+download('https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw', '乐山景然ABO')
+download('https://www.evernote.com/l/AO8Z7ocFEpJJjatcpUFs4oyx1F7g9knqfPA', '学术生涯篇')
+download('https://www.evernote.com/l/AO9X4c31vqVPE5Vs0fHDaQ3INH9qfsne36s', '穿越阵容有点大')
