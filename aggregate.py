@@ -26,8 +26,8 @@ def countWord(x):
 	return len([c for c in x if c.isalpha()])
 
 def download(url, filename = None):
+	global word_count
 	content = []
-	word_count = 0
 	while url:
 		text, title, url = getContent(url + '?json=1')
 		if not filename:
@@ -36,11 +36,11 @@ def download(url, filename = None):
 		word_count += sum([countWord(x) for x in content])
 		with open(filename, 'w') as f:
 			f.write('\n\n=======\n\n'.join(content))
-	with open('word_count.txt', 'a') as f:
-		f.write('%s\t\t%d' % (getTime(), word_count))
 
-
+word_count = 0
 download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
 download('https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw', '乐山景然ABO')
 download('https://www.evernote.com/l/AO8Z7ocFEpJJjatcpUFs4oyx1F7g9knqfPA', '学术生涯篇')
 download('https://www.evernote.com/l/AO9X4c31vqVPE5Vs0fHDaQ3INH9qfsne36s', '穿越阵容有点大')
+with open('word_count.txt', 'a') as f:
+	f.write('%s\t\t%d\n' % (getTime(), word_count))
