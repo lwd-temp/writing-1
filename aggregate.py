@@ -4,6 +4,7 @@
 from bs4 import BeautifulSoup
 import cached_url
 import yaml
+import datetime
 
 def getContent(url):
 	content = cached_url.get(url)
@@ -17,16 +18,27 @@ def getContent(url):
 			break
 	return b.get_text(separator="\n"), content['title'], next_url
 
+def getTime():
+	now = datetime.datetime.now()
+	return '%d/%d %d:%d' % (now.month, now.day, now.hour, now.minute)
+
+def countWord(x):
+	return len([c for c in x if c.isalpha()])
 
 def download(url, filename = None):
 	content = []
+	word_count = 0
 	while url:
 		text, title, url = getContent(url + '?json=1')
 		if not filename:
 			filename = title
 		content.append(text)
+		word_count += sum([countWord(x) for x in content])
 		with open(filename, 'w') as f:
 			f.write('\n\n=======\n\n'.join(content))
+	with open('word_count.txt', 'a') as f:
+		f.write('%s\t\t%d' % (getTime(), word_count))
+
 
 download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
 download('https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw', '乐山景然ABO')
