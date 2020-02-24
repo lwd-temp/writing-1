@@ -34,13 +34,12 @@ def download(url, filename = None):
 		if not filename:
 			filename = title
 		content.append(text)
-		word_count += sum([countWord(x) for x in content])
 		with open(filename, 'w') as f:
 			f.write('\n\n=======\n\n'.join(content))
+	word_count += sum([countWord(x) for x in content])
 
 word_count = 0
 download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
-print('x', word_count)
 download('https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw', '乐山景然ABO')
 download('https://www.evernote.com/l/AO8Z7ocFEpJJjatcpUFs4oyx1F7g9knqfPA', '学术生涯篇')
 download('https://www.evernote.com/l/AO9X4c31vqVPE5Vs0fHDaQ3INH9qfsne36s', '穿越阵容有点大')
