@@ -23,7 +23,6 @@ def getTime():
 	return '%d/%d %d:%d' % (now.month, now.day, now.hour, now.minute)
 
 def countWord(x):
-	print(len([c for c in x if c.isalpha()]))
 	return len([c for c in x if c.isalpha()])
 
 def download(url, filename = None):
