@@ -32,7 +32,7 @@ def download(url, filename = None):
 		if not filename:
 			filename = title
 		content.append(text)
-		result.append('\n\n====%s===\n\n' % title + text)
+		result.append('\n\n\n==== %s  ===\n\n\n' % title + text)
 		with open(filename, 'w') as f:
 			f.write(''.join(result))
 	word_count += sum([countWord(x) for x in content])
