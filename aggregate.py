@@ -18,8 +18,7 @@ def getContent(url):
 	return b.get_text(separator="\n\n"), content['title'], next_url
 
 def getTime():
-	now = datetime.datetime.now()
-	return '%d/%d %d:%d' % (now.month, now.day, now.hour, now.minute)
+	return datetime.datetime.now().strftime("%m/%d %H:%M")
 
 def countWord(x):
 	return len([c for c in x if c.isalpha()])
