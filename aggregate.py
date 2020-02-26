@@ -10,13 +10,12 @@ def getContent(url):
 	content = cached_url.get(url)
 	content = yaml.load(content, Loader=yaml.FullLoader)
 	b = BeautifulSoup(content['content'], 'html.parser')
-	b.get_text(separator="\n")
 	next_url = None
 	for x in b.find_all('a'):
 		if x['href'] and x['href'].startswith('https://www.evernote.com/l'):
 			next_url = x['href']
 			break
-	return b.get_text(separator="\n"), content['title'], next_url
+	return b.get_text(separator="\n\n"), content['title'], next_url
 
 def getTime():
 	now = datetime.datetime.now()
@@ -28,13 +27,15 @@ def countWord(x):
 def download(url, filename = None):
 	global word_count
 	content = []
+	result = []
 	while url:
 		text, title, url = getContent(url + '?json=1')
 		if not filename:
 			filename = title
 		content.append(text)
+		result.append('\n\n====%s===\n\n' % title + text)
 		with open(filename, 'w') as f:
-			f.write('\n\n=======\n\n'.join(content))
+			f.write(''.join(result))
 	word_count += sum([countWord(x) for x in content])
 
 word_count = 0
