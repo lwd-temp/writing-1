@@ -23,7 +23,7 @@ def getTime():
 	return datetime.datetime.now().strftime("%m/%d %H:%M")
 
 def countWord(x):
-	return len([c for c in x if c.isalpha()])
+	return len([c for c in x if c.isalpha() and ord(c) > 255])
 
 def download(url, filename = None):
 	global word_count
