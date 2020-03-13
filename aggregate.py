@@ -57,7 +57,7 @@ def downloadDoc(url, filename):
 	for f in os.listdir(dname):
 		try:
 			im = Image.open(dname + f)
-			im.save(dname + f, dpi=(300,300))
+			im.save(dname + f, dpi=(150,150))
 		except:
 			pass
 	os.system('rm %s' % zip_name)
