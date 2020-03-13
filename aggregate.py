@@ -14,6 +14,8 @@ def getContent(url):
 	b = BeautifulSoup(content['content'], 'html.parser')
 	with open('html/' + content['title'] + '.html', 'w') as f:
 		f.write(content['content'])
+	with open('html/' + content['title'] + '.json', 'w') as f:
+		f.write(str(content))
 	next_url = None
 	for x in b.find_all('a'):
 		if x['href'] and x['href'].startswith('https://www.evernote.com/l'):
