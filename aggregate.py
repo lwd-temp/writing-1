@@ -48,6 +48,7 @@ def download(url, filename = None):
 
 def downloadDoc(url, filename):
 	content = requests.get(url)
+	os.system('mkdir html/' + filename)
 	zip_name = 'html/' + filename + '/tmp.zip'
 	with open(zip_name, 'wb') as f:
 		f.write(content.content)
