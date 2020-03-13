@@ -47,8 +47,8 @@ def download(url, filename = None):
 
 def downloadDoc(url, filename):
 	content = requests.get(url)
-	with open('pdf/' + filename + '.pdf', 'w') as f:
-		f.write(content.text)
+	with open('pdf/' + filename + '.pdf', 'wb') as f:
+		f.write(content.content)
 
 word_count = 0
 # download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
