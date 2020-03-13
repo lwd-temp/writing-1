@@ -54,8 +54,11 @@ def downloadDoc(url, filename):
 	os.system('cd html/%s && unzip tmp.zip' % filename)
 	dname = 'html/%s/images/' % filename
 	for f in os.listdir(dname):
-		im = Image.open(dname + f)
-		im.save(dname + f, dpi=(300,300))
+		try:
+			im = Image.open(dname + f)
+			im.save(dname + f, dpi=(300,300))
+		except:
+			pass
 	os.system('rm %s' % zip_name)
 
 
