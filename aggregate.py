@@ -47,11 +47,11 @@ def download(url, filename = None):
 	word_count += sum([countWord(x) for x in content])
 
 def downloadDoc(url, filename):
-	# content = requests.get(url)
+	content = requests.get(url)
 	zip_name = 'html/' + filename + '/tmp.zip'
-	# with open(zip_name, 'wb') as f:
-	# 	f.write(content.content)
-	# os.system('cd html/%s && unzip tmp.zip' % filename)
+	with open(zip_name, 'wb') as f:
+		f.write(content.content)
+	os.system('cd html/%s && unzip tmp.zip' % filename)
 	dname = 'html/%s/images/' % filename
 	for f in os.listdir(dname):
 		im = Image.open(dname + f)
@@ -68,9 +68,9 @@ word_count = 0
 downloadDoc('https://docs.google.com/document/export?format=zip&id=1gB1hxccoplM1UOJue4DW0HNIgm4Ve1karRmy4zpZ3o8', '妓女的荣耀')
 with open('word_count.txt', 'a') as f:
 	f.write('%s\t\t%d\n' % (getTime(), word_count))
-# command = 'git add . && git commit -m "%s" && git push -u -f'
-# if len(sys.argv) > 1:
-# 	message = sys.argv[1]
-# else:
-# 	message = 'commit'
-# os.system(command % message)
+command = 'git add . && git commit -m "%s" && git push -u -f'
+if len(sys.argv) > 1:
+	message = sys.argv[1]
+else:
+	message = 'commit'
+os.system(command % message)
