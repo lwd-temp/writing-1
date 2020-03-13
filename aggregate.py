@@ -52,7 +52,7 @@ def downloadDoc(url, filename):
 	zip_name = 'html/' + filename + '/tmp.zip'
 	with open(zip_name, 'wb') as f:
 		f.write(content.content)
-	os.system('cd html/%s && unzip tmp.zip -o' % filename)
+	os.system('cd html/%s && unzip -o tmp.zip' % filename)
 	dname = 'html/%s/images/' % filename
 	for f in os.listdir(dname):
 		try:
