@@ -10,9 +10,10 @@ import os
 
 def getContent(url):
 	content = cached_url.get(url)
-	print(content)
 	content = yaml.load(content, Loader=yaml.FullLoader)
 	b = BeautifulSoup(content['content'], 'html.parser')
+	with open('html/' + content['title'] + '.html', 'w') as f:
+		f.write(content['content'])
 	next_url = None
 	for x in b.find_all('a'):
 		if x['href'] and x['href'].startswith('https://www.evernote.com/l'):
