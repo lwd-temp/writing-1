@@ -46,7 +46,7 @@ def download(url, filename = None):
 
 def downloadDoc(url, filename):
 	content = cached_url.get(url)
-	with open('html/' + filename + '.pdf', 'w') as f:
+	with open('pdf/' + filename + '.pdf', 'w') as f:
 		f.write(content)
 
 word_count = 0
