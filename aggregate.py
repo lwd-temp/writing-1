@@ -48,13 +48,15 @@ def download(url, filename = None):
 
 def downloadDoc(url, filename):
 	# content = requests.get(url)
-	# with open('html/' + filename + '/tmp.zip', 'wb') as f:
+	zip_name = 'html/' + filename + '/tmp.zip'
+	# with open(zip_name, 'wb') as f:
 	# 	f.write(content.content)
 	# os.system('cd html/%s && unzip tmp.zip' % filename)
 	dname = 'html/%s/images/' % filename
 	for f in os.listdir(dname):
 		im = Image.open(dname + f)
 		im.save(dname + f, dpi=(300,300))
+	os.system('rm %s' % zip_name)
 
 
 word_count = 0
