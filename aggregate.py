@@ -8,6 +8,7 @@ import datetime
 import sys
 import os
 from telegram_util import cleanFileName
+import requests
 
 def getContent(url):
 	content = cached_url.get(url)
@@ -45,9 +46,9 @@ def download(url, filename = None):
 	word_count += sum([countWord(x) for x in content])
 
 def downloadDoc(url, filename):
-	content = cached_url.get(url)
+	content = requests.get(url)
 	with open('pdf/' + filename + '.pdf', 'w') as f:
-		f.write(content)
+		f.write(content.text)
 
 word_count = 0
 # download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
