@@ -9,6 +9,7 @@ import sys
 import os
 from telegram_util import cleanFileName
 import requests
+from PIL import Image
 
 def getContent(url):
 	content = cached_url.get(url)
@@ -46,10 +47,15 @@ def download(url, filename = None):
 	word_count += sum([countWord(x) for x in content])
 
 def downloadDoc(url, filename):
-	content = requests.get(url)
-	with open('html/' + filename + '/tmp.zip', 'wb') as f:
-		f.write(content.content)
-		
+	# content = requests.get(url)
+	# with open('html/' + filename + '/tmp.zip', 'wb') as f:
+	# 	f.write(content.content)
+	# os.system('cd html/%s && unzip tmp.zip' % filename)
+	dname = 'html/%s/images/' % filename
+	for f in os.listdir(dname):
+		im = Image.open(dname + f)
+		im.save(dname + f, dpi=(300,300))
+
 
 word_count = 0
 # download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
@@ -60,9 +66,9 @@ word_count = 0
 downloadDoc('https://docs.google.com/document/export?format=zip&id=1gB1hxccoplM1UOJue4DW0HNIgm4Ve1karRmy4zpZ3o8', '妓女的荣耀')
 with open('word_count.txt', 'a') as f:
 	f.write('%s\t\t%d\n' % (getTime(), word_count))
-command = 'git add . && git commit -m "%s" && git push -u -f'
-if len(sys.argv) > 1:
-	message = sys.argv[1]
-else:
-	message = 'commit'
-os.system(command % message)
+# command = 'git add . && git commit -m "%s" && git push -u -f'
+# if len(sys.argv) > 1:
+# 	message = sys.argv[1]
+# else:
+# 	message = 'commit'
+# os.system(command % message)
