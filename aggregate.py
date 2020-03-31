@@ -9,9 +9,11 @@ import sys
 import os
 from telegram_util import cleanFileName
 import requests
+import time
 from PIL import Image
 
 def getContent(url):
+	time.sleep(1)
 	content = cached_url.get(url)
 	content = yaml.load(content, Loader=yaml.FullLoader)
 	b = BeautifulSoup(content['content'], 'html.parser')
@@ -65,13 +67,13 @@ def downloadDoc(url, filename):
 
 word_count = 0
 download('https://www.evernote.com/l/AO_jZ8RzOtpAGLoLisqlnc2KGuQyM0thtGY', '穿越进黄文我不知所措')
-download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
-download('https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw', '乐山景然ABO')
-download('https://www.evernote.com/l/AO8Z7ocFEpJJjatcpUFs4oyx1F7g9knqfPA', '学术生涯篇')
-download('https://www.evernote.com/l/AO9X4c31vqVPE5Vs0fHDaQ3INH9qfsne36s', '穿越阵容有点大')
-download('https://www.evernote.com/l/AO8FA3cJQNxEvo5QuwX6vu6GI3n9_KjoRFg', '三界')
-download('https://www.evernote.com/l/AO_odyI4w7xEj4MmiBa8PLBiDju8GIuJsI0')
-download('https://www.evernote.com/l/AO_WUvEn1eZPP4iUJb1QI6fOlxuvo9TpaPE')
+# download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
+# download('https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw', '乐山景然ABO')
+# download('https://www.evernote.com/l/AO8Z7ocFEpJJjatcpUFs4oyx1F7g9knqfPA', '学术生涯篇')
+# download('https://www.evernote.com/l/AO9X4c31vqVPE5Vs0fHDaQ3INH9qfsne36s', '穿越阵容有点大')
+# download('https://www.evernote.com/l/AO8FA3cJQNxEvo5QuwX6vu6GI3n9_KjoRFg', '三界')
+# download('https://www.evernote.com/l/AO_odyI4w7xEj4MmiBa8PLBiDju8GIuJsI0')
+# download('https://www.evernote.com/l/AO_WUvEn1eZPP4iUJb1QI6fOlxuvo9TpaPE')
 # downloadDoc('https://docs.google.com/document/export?format=zip&id=1gB1hxccoplM1UOJue4DW0HNIgm4Ve1karRmy4zpZ3o8', '妓女的荣耀')
 with open('word_count.txt', 'a') as f:
 	f.write('%s\t\t%d\n' % (getTime(), word_count))
