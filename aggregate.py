@@ -13,7 +13,6 @@ import time
 from PIL import Image
 
 def getContent(url):
-	time.sleep(1)
 	content = cached_url.get(url)
 	content = yaml.load(content, Loader=yaml.FullLoader)
 	b = BeautifulSoup(content['content'], 'html.parser')
