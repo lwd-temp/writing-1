@@ -45,6 +45,7 @@ def download(url, filename = None):
 	with open(filename, 'w') as f:
 		f.write(''.join(result))
 	word_count += sum([countWord(x) for x in content])
+	print('%s finished.' % filename)
 
 def downloadDoc(url, filename):
 	content = requests.get(url)
