@@ -75,8 +75,9 @@ download('https://www.evernote.com/l/AO8FA3cJQNxEvo5QuwX6vu6GI3n9_KjoRFg', '三�
 # download('https://www.evernote.com/l/AO_odyI4w7xEj4MmiBa8PLBiDju8GIuJsI0')
 # download('https://www.evernote.com/l/AO_WUvEn1eZPP4iUJb1QI6fOlxuvo9TpaPE')
 # downloadDoc('https://docs.google.com/document/export?format=zip&id=1gB1hxccoplM1UOJue4DW0HNIgm4Ve1karRmy4zpZ3o8', '妓女的荣耀')
-with open('word_count.txt', 'a') as f:
-	f.write('%s\t\t%d\n' % (getTime(), word_count))
+if 'notail' not in sys.argv:
+	with open('word_count.txt', 'a') as f:
+		f.write('%s\t\t%d\n' % (getTime(), word_count))
 command = 'git add . && git commit -m "%s" && git push -u -f'
 if len(sys.argv) > 1:
 	message = sys.argv[1]
