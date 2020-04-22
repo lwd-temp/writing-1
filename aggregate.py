@@ -41,6 +41,7 @@ def getContent(url):
 			x.replace_with('*%s*' % replace)
 		else:
 			x.replace_with(replace)
+	print(b)
 	return clearText(b.get_text(separator="\n\n")), content['title'], next_url
 
 def getTime():
