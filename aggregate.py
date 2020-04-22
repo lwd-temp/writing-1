@@ -7,24 +7,35 @@ import yaml
 import datetime
 import sys
 import os
-from telegram_util import cleanFileName
+from telegram_util import cleanFileName, compactText
 import requests
 from PIL import Image
+
+def clearText(content):
+	content = content.split('next')[0]
+	result = []
+	in_comment = False
+	for x in content:
+		if x == '【':
+			in_comment = True
+		if x == '】':
+			in_comment = False
+			continue
+		if not in_comment:
+			result.append(x)
+	content = ''.join(result)
+	return compactText(content)
 
 def getContent(url):
 	content = cached_url.get(url)
 	content = yaml.load(content, Loader=yaml.FullLoader)
 	b = BeautifulSoup(content['content'], 'html.parser')
-	# with open('html/' + cleanFileName(content['title']) + '.html', 'w') as f:
-	# 	f.write(content['content'])
-	# with open('html/' + cleanFileName(content['title']) + '.json', 'w') as f:
-	# 	f.write(str(content))
 	next_url = None
 	for x in b.find_all('a'):
 		if x['href'] and x['href'].startswith('https://www.evernote.com/l'):
 			next_url = x['href']
 			break
-	return b.get_text(separator="\n\n"), content['title'], next_url
+	return clearText(b.get_text(separator="\n\n")), content['title'], next_url
 
 def getTime():
 	return datetime.datetime.now().strftime("%m/%d %H:%M")
