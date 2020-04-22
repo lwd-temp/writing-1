@@ -42,7 +42,7 @@ def getContent(url):
 		else:
 			x.replace_with(replace)
 	print(b)
-	return clearText(b.text), content['title'], next_url
+	return clearText(b.get_text(separator="\n\n")), content['title'], next_url
 
 def getTime():
 	return datetime.datetime.now().strftime("%m/%d %H:%M")
