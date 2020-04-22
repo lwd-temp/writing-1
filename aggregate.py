@@ -10,7 +10,7 @@ import os
 from telegram_util import cleanFileName, compactText
 import requests
 from PIL import Image
-from hanziconv import HanziConv
+from zhconv import convert
 
 def clearText(content):
 	content = content.split('next')[0]
@@ -65,8 +65,8 @@ def download(url, filename = None):
 	result = clearText(''.join(result))
 	with open('original/%s.md' % filename, 'w') as f:
 		f.write(result)
-	with open('traditional/%s.md' % HanziConv.toTraditional(filename), 'w') as f:
-		f.write(HanziConv.toTraditional(result))
+	with open('traditional/%s.md' % convert(filename, 'zh-tw'), 'w') as f:
+		f.write(convert(result, 'zh-tw'))
 	word_count += countWord(result)
 	print('%s finished.' % filename)
 
