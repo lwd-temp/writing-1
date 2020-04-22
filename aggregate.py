@@ -38,7 +38,7 @@ def getContent(url):
 	for x in b.find_all('span'):
 		replace = x.text
 		if 'bold' in str(x.attrs):
-			x.replace_with('*%s*' % replace)
+			x.replace_with('**%s**' % replace)
 		else:
 			x.replace_with(replace)
 	for x in b.find_all('br'):
