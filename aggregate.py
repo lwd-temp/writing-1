@@ -35,7 +35,12 @@ def getContent(url):
 		if x['href'] and x['href'].startswith('https://www.evernote.com/l'):
 			next_url = x['href']
 			break
-	print(b)
+	for x in b.find_all('span'):
+		replace = x.text
+		if 'bold' in str(x.attrs):
+			x.replace_with('*%s*' % replace)
+		else:
+			x.replace_with(replace)
 	return clearText(b.get_text(separator="\n\n")), content['title'], next_url
 
 def getTime():
