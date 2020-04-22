@@ -41,8 +41,10 @@ def getContent(url):
 			x.replace_with('*%s*' % replace)
 		else:
 			x.replace_with(replace)
+	for x in b.find_all('br'):
+		x.replace_with('\n')
 	print(b)
-	return clearText(b.get_text(separator="\n\n")), content['title'], next_url
+	return clearText(b.text), content['title'], next_url
 
 def getTime():
 	return datetime.datetime.now().strftime("%m/%d %H:%M")
