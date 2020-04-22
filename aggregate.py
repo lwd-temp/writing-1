@@ -42,7 +42,7 @@ def getContent(url):
 		else:
 			x.replace_with(replace)
 	for x in b.find_all('br'):
-		x.replace_with('\n')
+		x.replace_with('\n\n')
 	print(b)
 	return clearText(b.text), content['title'], next_url
 
