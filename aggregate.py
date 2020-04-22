@@ -10,7 +10,8 @@ import os
 from telegram_util import cleanFileName, compactText
 import requests
 from PIL import Image
-from zhconv import convert
+from opencc import OpenCC
+cc = OpenCC('s2tw')
 
 def clearText(content):
 	content = content.split('next')[0]
@@ -65,8 +66,8 @@ def download(url, filename = None):
 	result = clearText(''.join(result))
 	with open('original/%s.md' % filename, 'w') as f:
 		f.write(result)
-	with open('traditional/%s.md' % convert(filename, 'zh-tw'), 'w') as f:
-		f.write(convert(result, 'zh-tw'))
+	with open('traditional/%s.md' % cc.convert(filename), 'w') as f:
+		f.write(cc.convert(result))
 	word_count += countWord(result)
 	print('%s finished.' % filename)
 
