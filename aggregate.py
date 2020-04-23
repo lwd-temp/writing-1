@@ -45,7 +45,7 @@ def getContent(url):
 			x.replace_with(replace)
 	for x in b.find_all('br'):
 		x.replace_with('\n\n')
-	return clearText(b.text), content['title'], next_url
+	return clearText(b.text), content['title'], next_url, b.text
 
 def getTime():
 	return datetime.datetime.now().strftime("%m/%d %H:%M")
@@ -57,17 +57,21 @@ def download(url, filename = None):
 	global word_count
 	content = []
 	result = []
+	raw_result = []
 	while url:
-		text, title, url = getContent(url + '?json=1')
+		text, title, url, raw_text = getContent(url + '?json=1')
 		if not filename:
 			filename = title
 		content.append(text)
 		result.append('\n\n\n==== %s  ===\n\n\n' % title + text)
+		raw_result.append('\n\n\n==== %s  ===\n\n\n' % title + raw_text)
 	result = clearText(''.join(result))
 	with open('original/%s.md' % filename, 'w') as f:
 		f.write(result)
 	with open('traditional/%s.md' % cc.convert(filename), 'w') as f:
 		f.write(cc.convert(result))
+	with open('raw/%s.md' % cc.convert(filename), 'w') as f:
+		f.write(''.join(raw_result))
 	word_count += countWord(result)
 	print('%s finished.' % filename)
 
