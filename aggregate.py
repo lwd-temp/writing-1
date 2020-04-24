@@ -107,6 +107,7 @@ word_count = 0
 # downloadDoc('https://docs.google.com/document/export?format=zip&id=1gB1hxccoplM1UOJue4DW0HNIgm4Ve1karRmy4zpZ3o8', '妓女的荣耀')
 # download('https://www.evernote.com/l/AO_dG7QCcrREsr-VjZ5QUJ02Riuk1GzXSNk')
 download('https://www.evernote.com/l/AO_jic8bMCVBw7ylY8987nTR0rE8TENbbrc')
+download('https://www.evernote.com/l/AO_672HguTBASYJX8xYB_wpilOnLu0pXfZY', '城市的另一边')
 
 if 'notail' not in sys.argv:
 	with open('word_count.txt', 'a') as f:
