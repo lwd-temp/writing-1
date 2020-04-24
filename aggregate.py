@@ -72,7 +72,7 @@ def download(url, filename = None):
 		f.write(cc.convert(result))
 	with open('raw/%s.md' % filename, 'w') as f:
 		f.write(''.join(raw_result))
-	print([countWord(x) for x in raw_result])
+	print(filename, [countWord(x) for x in raw_result])
 	word_count += countWord(result)
 	print('%s finished.' % filename)
 
