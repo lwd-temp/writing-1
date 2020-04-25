@@ -6,8 +6,10 @@
 
 世界设定：
 
-看言情/BG比较多的话，可以把Omega想作长了屌的女性...看耽美比较多的话，可以把Omega想作可以怀孕的受....（全男性无女性，只有AO两个ABO性别，男男可生子（主角应该不生），出生即可案腺体判定AO。O有颈下腺体，有每月一次1-2天发情期。有发情抑制剂，但比较贵，无抗药性。无标记，无变身，无成结。）
-
+看言情/BG比较多的话，可以把Omega想作长了屌的女性...
+看耽美比较多的话，可以把Omega想作可以怀孕的受....
+（全男性无女性，只有AO两个ABO性别，男男可生子（主角应该不生），出生即可案腺体判定AO。
+O有颈下腺体，有每月一次1-2天发情期。有发情抑制剂，但比较贵，无抗药性。无标记，无变身，无成结。）
 
 
 ~~~~ 正文 ~~~
@@ -79,6 +81,7 @@
 第二章：https://www.evernote.com/l/AO8gYBvo7bxDtLqfdh1gz5J1d5Tz0b1jUPU
 
 
+
 ==== 【乐山景然重写稿】【ABO】2 摸后感 —— 屁股还在，情绪稳定  ===
 
 
@@ -125,6 +128,7 @@
 第二天早上，天气晴朗，风和日丽，屁股还在，情绪稳定。
 
 next https://www.evernote.com/l/AO8smeXZVxNC6LkQ5nBqMSw0NYC17RrwF5I
+
 
 
 ==== 【乐山景然重写稿】【ABO】3 独角兽大闹天宫  ===
@@ -183,6 +187,7 @@ next https://www.evernote.com/l/AO8smeXZVxNC6LkQ5nBqMSw0NYC17RrwF5I
 https://www.evernote.com/l/AO_fV3M6OmNDk5Uoo829XO6-qUuJSu6TOis
 
 
+
 ==== 【乐山景然重写稿】【ABO】4 完了，韩哥吃饱饭开始脱裤子了  ===
 
 
@@ -235,6 +240,7 @@ https://www.evernote.com/l/AO_fV3M6OmNDk5Uoo829XO6-qUuJSu6TOis
 next https://www.evernote.com/l/AO-zafg2IZtICJjWVChWjJxZI7_WBvLXWr4
 
 
+
 ==== 【乐山景然重写稿】【ABO】5 我给你补一堂生理卫生课吧，学校不教的那种  ===
 
 
@@ -275,9 +281,6 @@ next https://www.evernote.com/l/AO-zafg2IZtICJjWVChWjJxZI7_WBvLXWr4
 这些，为什么课上不教。为什么我张景然都不知道。也是，连“抑制剂”都没法说出口的课堂里，这些怎么教。书上，小说里，电视剧里，色情片里，教的是：Omega天生贱货，喜欢被操出血，喜欢粗暴，喜欢被骂，喜欢被打。都是何其可笑的想法！偏偏自己以前还相信了大半部分，听信什么发情期是Omega的优待，每个月都有几天可以享受。现在想来，说这话的人真是残忍。
 
 Next https://www.evernote.com/l/AO8sH21JE89Pbrbp2TTi2ojj2bLGJczBdrE
-
-
-
 
 
 
@@ -343,6 +346,7 @@ Next https://www.evernote.com/l/AO8sH21JE89Pbrbp2TTi2ojj2bLGJczBdrE
 next https://www.evernote.com/l/AO_9t2NIG4FPupI-IVUl_lWFyVPtkBCn7ZY
 
 
+
 ==== 【乐山景然重写稿】【ABO】7  ===
 
 
@@ -391,6 +395,7 @@ next https://www.evernote.com/l/AO_9t2NIG4FPupI-IVUl_lWFyVPtkBCn7ZY
 “老哥，我好想念小时候，爸爸还在的时候…”
 
 next https://www.evernote.com/l/AO_bFh6kiPxPLLZqRGf0U9tL1k72KTpsqKo
+
 
 
 ==== 【乐山景然重写稿】【ABO】8  ===
@@ -487,6 +492,7 @@ next https://www.evernote.com/l/AO_bFh6kiPxPLLZqRGf0U9tL1k72KTpsqKo
 Next https://www.evernote.com/l/AO_il1VvGYpOabrww9o8nBvO1P10vO7Hd-Q
 
 
+
 ==== 【乐山景然重写稿】【ABO】9 赏鸡大赛  ===
 
 
@@ -547,6 +553,7 @@ Next https://www.evernote.com/l/AO_il1VvGYpOabrww9o8nBvO1P10vO7Hd-Q
 next https://www.evernote.com/l/AO_nArNpRUpPH7GcMKAyHu16qc9fky1q4go
 
 
+
 ==== 【乐山景然重写稿】【ABO】10  ===
 
 
@@ -589,6 +596,7 @@ next https://www.evernote.com/l/AO_nArNpRUpPH7GcMKAyHu16qc9fky1q4go
 不过韩乐山亲自辅导功课，他张景然不敢不学。本来他还想把家里账本也交给韩乐山看，韩乐山连忙摆手：不不不，这个真的不行。
 
 next https://www.evernote.com/l/AO8M7tTK9RZD_a5tlzd9DrXazkCMTnuUuFI
+
 
 
 ==== 【乐山景然重写稿】【ABO】11 前方仙岛，唤作崇明  ===
@@ -709,6 +717,7 @@ next https://www.evernote.com/l/AO-u7oP_t1lL0KqAHxrq0lr7nRPHmZBYiK0
 Next https://www.evernote.com/l/AO_xj1bFSGZC25cb_G1fAhMYwkCkCxIkJf4
 
 
+
 ==== 【乐山景然重写稿】【ABO】13  ===
 
 
@@ -755,6 +764,7 @@ Next https://www.evernote.com/l/AO_xj1bFSGZC25cb_G1fAhMYwkCkCxIkJf4
 next https://www.evernote.com/l/AO9UxJomifdJ6qqNcBD4Q6x4RYOYSGsnnhg
 
 
+
 ==== 【乐山景然重写稿】【ABO】14  ===
 
 
@@ -789,9 +799,6 @@ next https://www.evernote.com/l/AO9UxJomifdJ6qqNcBD4Q6x4RYOYSGsnnhg
 【这段放别处吧… 先下一章下一章，之后再修】
 
 Next https://www.evernote.com/l/AO_GnbEu3mVFP568Gx_Iiow8ftRIIB9Mn1c
-
-
-
 
 
 
@@ -931,12 +938,11 @@ next https://www.evernote.com/l/AO_BC8zlrZNAdqnjIM0mjiQMq8g8FFURFgc
 next https://www.evernote.com/l/AO8n5GkscOdNtL9P293vPfDdDCvWTudnehU
 
 
+
 ==== 【乐山景然重写稿】【ABO】17  ===
 
 
 三年起底，最高死刑。
-
-
 
 “韩哥，我们这二十个… 二十个… 真的只是自用？”
 
@@ -969,11 +975,6 @@ next https://www.evernote.com/l/AO8n5GkscOdNtL9P293vPfDdDCvWTudnehU
 ~~~
 
 Next https://www.evernote.com/l/AO8fsVRiLppCvITvbX21iKNIFL8gyOZDRrc
-
-
-
-
-
 
 
 
@@ -1221,6 +1222,7 @@ next https://www.evernote.com/l/AO_cLzDzie9E6bEQ5Mvnco4Fa0vM-MOJZlY
 next https://www.evernote.com/l/AO_ZjSJ2MPFIEIPIqY-7xWHx6EPJJQ5NDPU
 
 
+
 ==== 【乐山景然重写稿】【ABO】21  ===
 
 
@@ -1279,6 +1281,7 @@ next https://www.evernote.com/l/AO_ZjSJ2MPFIEIPIqY-7xWHx6EPJJQ5NDPU
 【老张什么时候挨操，哎，急死我啦，下章就通过操老张推动感情线吧...】
 
 next https://www.evernote.com/l/AO9csImP529GXZDoPpYM-wO7XQ6nBz5-yPA
+
 
 
 ==== 【乐山景然重写稿】【ABO】22  ===
@@ -1405,8 +1408,6 @@ next https://www.evernote.com/l/AO_sX9lUc7xHxKbm-Ijn_HleSqcfgVJqq78
 
 
 
-
-
 ==== 【乐山景然重写稿】【ABO】24  ===
 
 
@@ -1484,8 +1485,6 @@ Next https://www.evernote.com/l/AO_fBexCMzpLFLEAmSCNJnclf0wiXYHAKxU
 
 【这个梗是不是太晦涩了...】
 
-
-
 江南以外的学校没有本地补助，不敢想，江南的高校，韩乐山一家家找过来，每一个都好像真爱一样，诉说了自己现编的特别小故事。什么“小时候爸爸带着去过，一见便如天人啊”，什么“附属医院救过自己爹的命啊”，什么“自己现在特别尊敬的老师就是贵校毕业”的呀。没心没肺，没一句真话。
 
 招生办的老师倒是听着，笑笑，不置可否。“你这个情况比较特殊，我们得回去讨论讨论。”
@@ -1561,6 +1560,7 @@ Next https://www.evernote.com/l/AO_fBexCMzpLFLEAmSCNJnclf0wiXYHAKxU
 【预告：江思以后就要带着男朋友沿着青州王的路线，拿着狮子旗，出逃天竺了..】
 
 next https://www.evernote.com/l/AO8flOQgE69P-IvFmRFGGckGAlvdLuFRVgw
+
 
 
 ==== 【乐山景然重写稿】【ABO】26  ===
@@ -1684,11 +1684,6 @@ next https://www.evernote.com/l/AO-Bj3eiLYVBZIbTs9mrO-M9gjqebflCrqQ
 
 
 
-
-
-
-
-
 ==== 【乐山景然重写稿】【ABO】27  ===
 
 
@@ -1738,13 +1733,18 @@ next https://www.evernote.com/l/AO-Bj3eiLYVBZIbTs9mrO-M9gjqebflCrqQ
 
 Next https://www.evernote.com/l/AO8DsMKel4BIn6weFGZQZXDj9uggtP_pMHQ
 
-TODO：* 卖飞机杯【这个做结尾吧，婚也不结了么？先不结了吧】* gym故事【再想想这个被人打中腺体发情的桥段好像有点狗血。。。】* 讨论论文这个情节实在是太女权了，不知道该怎么切入写...* 救弟弟 去大学旁听? 被白眼？
+TODO：
+* 卖飞机杯【这个做结尾吧，婚也不结了么？先不结了吧】
+* gym故事【再想想这个被人打中腺体发情的桥段好像有点狗血。。。】
+* 讨论论文这个情节实在是太女权了，不知道该怎么切入写...
+* 救弟弟
+ 去大学旁听? 被白眼？
+
 
 
 ==== 【乐山景然重写稿】【ABO】28  ===
 
 
 【故事张力，张力是什么？搞笑文怎么写！】
-
 
 
