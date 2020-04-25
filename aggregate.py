@@ -44,8 +44,10 @@ def getContent(url):
 			x.replace_with('**%s**' % replace)
 		else:
 			x.replace_with(replace)
+	for x in b.find_all('div'):
+		x.replace_with(x.text + '\n')
 	for x in b.find_all('br'):
-		x.replace_with('\n\n')
+		x.replace_with('\n')
 	print(str(b))
 	return clearText(b.text), content['title'], next_url, b.text
 
