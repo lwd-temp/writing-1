@@ -15,6 +15,7 @@ cc = OpenCC('s2tw')
 
 def clearText(content):
 	content = content.split('next')[0]
+	content = content.split('Next')[0]
 	result = []
 	in_comment = False
 	for x in content:
