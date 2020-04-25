@@ -61,6 +61,7 @@ def download(url, filename = None):
 	content = []
 	result = []
 	raw_result = []
+	words = []
 	while url:
 		text, title, url, raw_text = getContent(url + '?json=1')
 		if not filename:
@@ -68,6 +69,7 @@ def download(url, filename = None):
 		content.append(text)
 		result.append('\n\n\n==== %s  ===\n\n\n' % title + text)
 		raw_result.append('\n\n\n==== %s  ===\n\n\n' % title + raw_text)
+		words.append(countWord(text))
 	result = clearText(''.join(result))
 	with open('original/%s.md' % filename, 'w') as f:
 		f.write(result)
@@ -75,8 +77,8 @@ def download(url, filename = None):
 		f.write(cc.convert(result))
 	with open('raw/%s.md' % filename, 'w') as f:
 		f.write(''.join(raw_result))
-	print(filename, [countWord(x) for x in raw_result])
-	word_count += countWord(result)
+	print(filename, words, sum(words))
+	word_count += sum(words)
 
 def downloadDoc(url, filename):
 	content = requests.get(url)
