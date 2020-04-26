@@ -45,9 +45,9 @@ def getContent(url):
 		else:
 			x.replace_with(replace)
 	for x in b.find_all('div'):
-		x.replace_with(x.text + '\n')
+		x.replace_with(x.text + '\n\n')
 	for x in b.find_all('br'):
-		x.replace_with('\n')
+		x.replace_with('\n\n')
 	return clearText(b.text), content['title'], next_url, b.text
 
 def getTime():
