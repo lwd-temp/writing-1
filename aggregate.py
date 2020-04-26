@@ -14,8 +14,8 @@ from opencc import OpenCC
 cc = OpenCC('s2tw')
 
 def clearText(content):
-	content = content.split('next')[0]
-	content = content.split('Next')[0]
+	for key in ['next', 'Next', 'previous', 'Previous']:
+		content = content.split(key)[0]	
 	result = []
 	in_comment = False
 	for x in content:
