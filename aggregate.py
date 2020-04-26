@@ -27,7 +27,7 @@ def clearText(content):
 		if not in_comment:
 			result.append(x)
 	content = ''.join(result)
-	return compactText(content).replace('~', '>')
+	return compactText(content).replace('~', '.')
 
 def getContent(url):
 	content = cached_url.get(url)
