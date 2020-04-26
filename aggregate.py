@@ -27,7 +27,7 @@ def clearText(content):
 		if not in_comment:
 			result.append(x)
 	content = ''.join(result)
-	return compactText(content).replace('~', '.')
+	return compactText(content)
 
 def getContent(url):
 	content = cached_url.get(url)
@@ -48,7 +48,8 @@ def getContent(url):
 		x.replace_with(x.text + '\n\n')
 	for x in b.find_all('br'):
 		x.replace_with('\n\n')
-	return clearText(b.text), content['title'], next_url, b.text
+	text = compactText(b.text.replace('~', '.'))
+	return clearText(text), content['title'], next_url, text
 
 def getTime():
 	return datetime.datetime.now().strftime("%m/%d %H:%M")
