@@ -104,6 +104,7 @@ def downloadDoc(url, filename):
 	os.system('rm %s' % zip_name)
 
 word_count = 0
+download('https://www.evernote.com/l/AO_672HguTBASYJX8xYB_wpilOnLu0pXfZY', '城市的另一边')
 download('https://www.evernote.com/l/AO9NCICZw1JOoL80CKiBuaKkfpdzSA8wRkw', 'Telegram群组推荐')
 download('https://www.evernote.com/l/AO_jZ8RzOtpAGLoLisqlnc2KGuQyM0thtGY', '穿越进黄文我不知所措')
 download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
@@ -117,7 +118,6 @@ download('https://www.evernote.com/l/AO_odyI4w7xEj4MmiBa8PLBiDju8GIuJsI0')
 download('https://www.evernote.com/l/AO_WUvEn1eZPP4iUJb1QI6fOlxuvo9TpaPE')
 download('https://www.evernote.com/l/AO_dG7QCcrREsr-VjZ5QUJ02Riuk1GzXSNk')
 download('https://www.evernote.com/l/AO_jic8bMCVBw7ylY8987nTR0rE8TENbbrc')
-download('https://www.evernote.com/l/AO_672HguTBASYJX8xYB_wpilOnLu0pXfZY', '城市的另一边')
 
 if 'notail' not in sys.argv:
 	with open('word_count.txt', 'a') as f:
