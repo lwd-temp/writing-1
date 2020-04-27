@@ -128,4 +128,6 @@ if len(sys.argv) > 1:
 	message = sys.argv[1]
 else:
 	message = 'commit'
+if message == 'notail':
+	message = 'auto_commit'
 os.system(command % message)
