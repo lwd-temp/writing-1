@@ -57,7 +57,7 @@ def getTime():
 def countWord(x):
 	return len([c for c in x if c.isalpha() and ord(c) > 255])
 
-def download(url, filename = None):
+def download(url, filename = None, skip_total_count = False):
 	global word_count
 	content = []
 	result = []
@@ -86,7 +86,8 @@ def download(url, filename = None):
 		f.write(''.join(raw_result))
 	if old_result != ''.join(raw_result):
 		print(filename, words, sum(words))
-	word_count += sum(words)
+	if not skip_total_count:
+		word_count += sum(words)
 
 def downloadDoc(url, filename):
 	content = requests.get(url)
@@ -106,7 +107,7 @@ def downloadDoc(url, filename):
 
 word_count = 0
 download('https://www.evernote.com/l/AO_672HguTBASYJX8xYB_wpilOnLu0pXfZY', '城市的另一边')
-download('https://www.evernote.com/l/AO9NCICZw1JOoL80CKiBuaKkfpdzSA8wRkw', 'Telegram群组推荐')
+download('https://www.evernote.com/l/AO9NCICZw1JOoL80CKiBuaKkfpdzSA8wRkw', 'Telegram群组推荐', skip_total_count=True)
 download('https://www.evernote.com/l/AO_jZ8RzOtpAGLoLisqlnc2KGuQyM0thtGY', '穿越进黄文我不知所措')
 download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
 download('https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw', '乐山景然ABO')
@@ -118,7 +119,7 @@ download('https://www.evernote.com/l/AO84Q8Hc-mhJ6YNbUdtypUBDPpIeT-ZW73g', '江�
 download('https://www.evernote.com/l/AO_odyI4w7xEj4MmiBa8PLBiDju8GIuJsI0')
 download('https://www.evernote.com/l/AO_WUvEn1eZPP4iUJb1QI6fOlxuvo9TpaPE')
 download('https://www.evernote.com/l/AO_dG7QCcrREsr-VjZ5QUJ02Riuk1GzXSNk')
-download('https://www.evernote.com/l/AO_jic8bMCVBw7ylY8987nTR0rE8TENbbrc')
+download('https://www.evernote.com/l/AO_jic8bMCVBw7ylY8987nTR0rE8TENbbrc', skip_total_count=True)
 
 if 'notail' not in sys.argv:
 	with open('word_count.txt', 'a') as f:
