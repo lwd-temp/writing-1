@@ -84,7 +84,7 @@ def download(url, filename = None, skip_total_count = False):
 		pass
 	with open('raw/%s.md' % filename, 'w') as f:
 		f.write(''.join(raw_result))
-	if old_result != ''.join(raw_result):
+	if True: # old_result != ''.join(raw_result):
 		print(filename, words, sum(words))
 	if not skip_total_count:
 		word_count += sum(words)
