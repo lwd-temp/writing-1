@@ -40,7 +40,7 @@ O有颈下腺体，有每月一次1-2天发情期。有发情抑制剂，但比�
 
 张景然吃吓，大脑瞬间格式化，只余下一个念头：不要打我！
 
-到嘴边的“谢谢”，也变成了“韩同学对不起我错了！” 应该说什么来着，才能显出诚意来？ 
+到嘴边的“谢谢”，也变成了“韩同学对不起我错了！” 应该说什么来着，才能显出诚意来？
 
 “韩哥，这是这个月的保护费！”
 
@@ -102,7 +102,7 @@ O有颈下腺体，有每月一次1-2天发情期。有发情抑制剂，但比�
 
 “孔融的跪倒在武修文面前，撅起淫穴剧烈的摇晃起来，那淫穴说起来真是个尤物，分明紧到几乎不见，淫水却源源不断的流将来下，顺着双腿，将那地毯也染湿了一片。”
 
-这… 这不科学吧… 照进化论的角度，也不可能需要这么多水吧… 
+这… 这不科学吧… 照进化论的角度，也不可能需要这么多水吧…
 
 “孔融少时与兄食梨，辄引小者，偷偷插入淫穴享用。待到成年，每每遇到Alpha，便亲自检查对方阳物大小，至今尚未遇到合心之器。今日见修文哥哥常日习武，器具也非比寻常，便自割腺体，发起情来，只求修文哥哥可以将操将自己，了却多年心愿。”
 
@@ -116,7 +116,7 @@ O有颈下腺体，有每月一次1-2天发情期。有发情抑制剂，但比�
 
 不过说起来，这所谓的“淫穴”不就是菊花么？Omega的菊花，韩乐山的菊花，真的可以容纳一个屌？那该多疼啊… 那韩乐山真是倒了大霉了，身为Omega要被做这种事情…
 
-张景然想象了一下，韩乐山，出手保护自己的韩乐山，以后会嫁一个Alpha，这个Alpha，会和他说，“贱奴快来”，然后用手臂粗的屌，操的韩乐山屁股开花… 
+张景然想象了一下，韩乐山，出手保护自己的韩乐山，以后会嫁一个Alpha，这个Alpha，会和他说，“贱奴快来”，然后用手臂粗的屌，操的韩乐山屁股开花…
 
 他们说Omega就是喜欢被操，虽然这个说法很是可疑。就算这样吧，至少他张景然知道，韩乐山，肯定不会喜欢被人喊什么“贱奴快来”，也肯定不会喜欢跪在别人身下。这只独角兽，最最自信，最最骄傲的人了，百分之一千万不会喜欢因为一时情动，就被人呼来喝去，还要含住别人的脏东西。
 
@@ -128,7 +128,7 @@ O有颈下腺体，有每月一次1-2天发情期。有发情抑制剂，但比�
 
 第二天早上，天气晴朗，风和日丽，屁股还在，情绪稳定。
 
-next https://www.evernote.com/l/AO8smeXZVxNC6LkQ5nBqMSw0NYC17RrwF5I
+next https://www.evernote.com/l/AO8smeXZVxNC6LkQ5nBqMSw0NYC17RrwF5I
 
 
 ==== 【乐山景然重写稿】【ABO】3 独角兽大闹天宫  ===
@@ -144,7 +144,7 @@ next https://www.evernote.com/l/AO8smeXZVxNC6LkQ5nBqMSw0NYC17RrwF5I
 
 初中开始，基本AO都分开耍了，但韩乐山这样的人，总还是有些A觉得是有点酷的。
 
-“可惜是个O，否则带他一起玩，倒是很好的。” 
+“可惜是个O，否则带他一起玩，倒是很好的。”
 
 他老张不管，反正也被说成娘炮，不算个真正的A。下课的时候，他就跑到人家课桌边上凑过去坐着，“韩哥，你好像胆子蛮大的，什么都敢说，什么都敢做，真好。”
 
@@ -208,7 +208,7 @@ https://www.evernote.com/l/AO_fV3M6OmNDk5Uoo829XO6-qUuJSu6TOis
 
 我，张景然，不知道如果回答不行，屁股还能不能保住。
 
-随后在张景然的惊异中，韩乐山找到了景成放在厕所的打扫工具。“我从来不知道家里还有这么一套东西…” 
+随后在张景然的惊异中，韩乐山找到了景成放在厕所的打扫工具。“我从来不知道家里还有这么一套东西…”
 
 张景然不知道的事情太特么多了。他不知道窗帘杆子上积了一层灰，他不知道他的书桌和床是可以推得动的，他更不知道他床下的黄书纸巾一大堆，几乎可以完整记录他这两年来不怎么完整的性启蒙。他也不知道家里的吸尘器已经两年没有清理了，水台下面的瓶子都发了霉，更不知道床单上奇怪的印子从何而来。
 
@@ -236,7 +236,7 @@ https://www.evernote.com/l/AO_fV3M6OmNDk5Uoo829XO6-qUuJSu6TOis
 
 晚了… 完了… 韩哥吃饱饭开始脱裤子了…
 
-next https://www.evernote.com/l/AO-zafg2IZtICJjWVChWjJxZI7_WBvLXWr4
+next https://www.evernote.com/l/AO-zafg2IZtICJjWVChWjJxZI7_WBvLXWr4
 
 
 ==== 【乐山景然重写稿】【ABO】5 我给你补一堂生理卫生课吧，学校不教的那种  ===
@@ -278,7 +278,7 @@ next https://www.evernote.com/l/AO-zafg2IZtICJjWVChWjJxZI7_WBvLXWr4
 
 这些，为什么课上不教。为什么我张景然都不知道。也是，连“抑制剂”都没法说出口的课堂里，这些怎么教。书上，小说里，电视剧里，色情片里，教的是：Omega天生贱货，喜欢被操出血，喜欢粗暴，喜欢被骂，喜欢被打。都是何其可笑的想法！偏偏自己以前还相信了大半部分，听信什么发情期是Omega的优待，每个月都有几天可以享受。现在想来，说这话的人真是残忍。
 
-Next https://www.evernote.com/l/AO8sH21JE89Pbrbp2TTi2ojj2bLGJczBdrE
+Next https://www.evernote.com/l/AO8sH21JE89Pbrbp2TTi2ojj2bLGJczBdrE
 
 
 ==== 【乐山景然重写稿】【ABO】6 咸鱼  ===
@@ -336,7 +336,7 @@ Next https://www.evernote.com/l/AO8sH21JE89Pbrbp2TTi2ojj2bLGJczBdrE
 
 张景然：游呀游。
 
-next https://www.evernote.com/l/AO_9t2NIG4FPupI-IVUl_lWFyVPtkBCn7ZY
+next https://www.evernote.com/l/AO_9t2NIG4FPupI-IVUl_lWFyVPtkBCn7ZY
 
 
 ==== 【乐山景然重写稿】【ABO】7  ===
@@ -386,7 +386,7 @@ next https://www.evernote.com/l/AO_9t2NIG4FPupI-IVUl_lWFyVPtkBCn7ZY
 
 “老哥，我好想念小时候，爸爸还在的时候…”
 
-next https://www.evernote.com/l/AO_bFh6kiPxPLLZqRGf0U9tL1k72KTpsqKo
+next https://www.evernote.com/l/AO_bFh6kiPxPLLZqRGf0U9tL1k72KTpsqKo
 
 
 ==== 【乐山景然重写稿】【ABO】8  ===
@@ -474,13 +474,13 @@ next https://www.evernote.com/l/AO_bFh6kiPxPLLZqRGf0U9tL1k72KTpsqKo
 
 张景然一手拿着酸奶，一手抓着韩哥的手。韩乐山想的却是，要不是发情期，挣脱开应该还是很容易的…
 
-哎，这老张真的体能不行哎，甩一下就松开了哎… 
+哎，这老张真的体能不行哎，甩一下就松开了哎…
 
 不对，我作死了，老张看来不妙，又是要哭，得赶紧哄一下。
 
 “韩哥不走好不好…”
 
-Next https://www.evernote.com/l/AO_il1VvGYpOabrww9o8nBvO1P10vO7Hd-Q
+Next https://www.evernote.com/l/AO_il1VvGYpOabrww9o8nBvO1P10vO7Hd-Q
 
 
 ==== 【乐山景然重写稿】【ABO】9 赏鸡大赛  ===
@@ -518,7 +518,7 @@ Next https://www.evernote.com/l/AO_il1VvGYpOabrww9o8nBvO1P10vO7Hd-Q
 
 张景然觉得今天学了两个词。“徒手”和“操作”。造句：徒手操作黄瓜。活学活用的很快。其实想起来挺不好意思的，平息发情期，一般需要两天内，Omega能够被操射两到三次，确实张景然的体力不是没次都能胜任…
 
-“老张看，自己做的，花了几个月按照图纸搞出来的，插电的，即插即用，前几天还给加了个小开关。”  韩乐山从包里掏出个大家伙，口气里还有点得意。
+“老张看，自己做的，花了几个月按照图纸搞出来的，插电的，即插即用，前几天还给加了个小开关。” 韩乐山从包里掏出个大家伙，口气里还有点得意。
 
 “赏鸡大赛”，张景然脑中冒出四个字。同学，你持有这种违禁品，很危险啊。
 
@@ -540,7 +540,7 @@ Next https://www.evernote.com/l/AO_il1VvGYpOabrww9o8nBvO1P10vO7Hd-Q
 
 这个有名有姓，叫韩乐山的人，在经历了这么多之后，还能得意洋洋的站在自己面前，说，“我给你看个大宝贝”。
 
-next https://www.evernote.com/l/AO_nArNpRUpPH7GcMKAyHu16qc9fky1q4go
+next https://www.evernote.com/l/AO_nArNpRUpPH7GcMKAyHu16qc9fky1q4go
 
 
 ==== 【乐山景然重写稿】【ABO】10  ===
@@ -584,7 +584,7 @@ next https://www.evernote.com/l/AO_nArNpRUpPH7GcMKAyHu16qc9fky1q4go
 
 不过韩乐山亲自辅导功课，他张景然不敢不学。本来他还想把家里账本也交给韩乐山看，韩乐山连忙摆手：不不不，这个真的不行。
 
-next https://www.evernote.com/l/AO8M7tTK9RZD_a5tlzd9DrXazkCMTnuUuFI
+next https://www.evernote.com/l/AO8M7tTK9RZD_a5tlzd9DrXazkCMTnuUuFI
 
 
 ==== 【乐山景然重写稿】【ABO】11 前方仙岛，唤作崇明  ===
@@ -624,7 +624,7 @@ next https://www.evernote.com/l/AO8M7tTK9RZD_a5tlzd9DrXazkCMTnuUuFI
 
 晚上，张景然抱着韩哥，做了一个梦。梦里，两人登山，遥望远方，黄埔入海，星火点点，韩哥手指远方，指点江山，前方仙岛，唤作崇明。
 
-next https://www.evernote.com/l/AO-u7oP_t1lL0KqAHxrq0lr7nRPHmZBYiK0
+next https://www.evernote.com/l/AO-u7oP_t1lL0KqAHxrq0lr7nRPHmZBYiK0
 
 
 ==== 【乐山景然重写稿】【ABO】12  ===
@@ -652,7 +652,7 @@ next https://www.evernote.com/l/AO-u7oP_t1lL0KqAHxrq0lr7nRPHmZBYiK0
 
 周光头想着，丑O卖萌，真是有用，只想叫他快点停下来，也不管别的了，痛苦的将头扭向一边。“你自己和别的老师说一下吧，我同意了。护校只收已婚Omega，你自己的事情也要打算着。”
 
-“嗯，我家长有在帮我物色，我全权听他们的。” 韩乐山千恩万谢，又跑到各科老师面前一一说明，才跑出办公室。
+“嗯，我家长有在帮我物色，我全权听他们的。” 韩乐山千恩万谢，又跑到各科老师面前一一说明，才跑出办公室。
 
 张景然在门外听着，眼前一黑，喘不过气来。长袖善舞，八面玲珑，没一句真话，才能在这个世界活下来么。
 
@@ -690,7 +690,7 @@ next https://www.evernote.com/l/AO-u7oP_t1lL0KqAHxrq0lr7nRPHmZBYiK0
 
 “韩哥，他们叫这个世界，专制大陆？”
 
-“嗯。我开始也不信，直到看到这么多小说，我也不得不信了。上千本小说，不是一两个骗子能写成的…” 
+“嗯。我开始也不信，直到看到这么多小说，我也不得不信了。上千本小说，不是一两个骗子能写成的…”
 
 “那这美丽岛上，那么多Omega做老师，做教授，做工程师，岂不乱套？真打起仗来，Omega还不是要Alpha保护着么。” 韩乐水问。
 
@@ -700,7 +700,7 @@ next https://www.evernote.com/l/AO-u7oP_t1lL0KqAHxrq0lr7nRPHmZBYiK0
 
 【这一段写的真是太科教了… 得想点办法改一改】
 
-Next https://www.evernote.com/l/AO_xj1bFSGZC25cb_G1fAhMYwkCkCxIkJf4
+Next https://www.evernote.com/l/AO_xj1bFSGZC25cb_G1fAhMYwkCkCxIkJf4
 
 
 ==== 【乐山景然重写稿】【ABO】13  ===
@@ -746,7 +746,7 @@ Next https://www.evernote.com/l/AO_xj1bFSGZC25cb_G1fAhMYwkCkCxIkJf4
 
 【这章估计要再修】
 
-next https://www.evernote.com/l/AO9UxJomifdJ6qqNcBD4Q6x4RYOYSGsnnhg
+next https://www.evernote.com/l/AO9UxJomifdJ6qqNcBD4Q6x4RYOYSGsnnhg
 
 
 ==== 【乐山景然重写稿】【ABO】14  ===
@@ -782,7 +782,7 @@ next https://www.evernote.com/l/AO9UxJomifdJ6qqNcBD4Q6x4RYOYSGsnnhg
 
 【这段放别处吧… 先下一章下一章，之后再修】
 
-Next https://www.evernote.com/l/AO_GnbEu3mVFP568Gx_Iiow8ftRIIB9Mn1c
+Next https://www.evernote.com/l/AO_GnbEu3mVFP568Gx_Iiow8ftRIIB9Mn1c
 
 
 ==== 【乐山景然重写稿】【ABO】15  ===
@@ -870,7 +870,7 @@ next https://www.evernote.com/l/AO_BC8zlrZNAdqnjIM0mjiQMq8g8FFURFgc
 
 ...
 
-张景然：不就是学习差么，用得着判我死刑么…. 
+张景然：不就是学习差么，用得着判我死刑么….
 
 韩乐山：别，你还有大片生机。不要放弃治疗。
 
@@ -912,7 +912,7 @@ next https://www.evernote.com/l/AO_BC8zlrZNAdqnjIM0mjiQMq8g8FFURFgc
 
 张景然：韩哥，真回答不了，我脑袋里现在全是鸡巴。
 
-next https://www.evernote.com/l/AO8n5GkscOdNtL9P293vPfDdDCvWTudnehU
+next https://www.evernote.com/l/AO8n5GkscOdNtL9P293vPfDdDCvWTudnehU
 
 
 ==== 【乐山景然重写稿】【ABO】17  ===
@@ -950,7 +950,7 @@ next https://www.evernote.com/l/AO8n5GkscOdNtL9P293vPfDdDCvWTudnehU
 
 ...
 
-Next https://www.evernote.com/l/AO8fsVRiLppCvITvbX21iKNIFL8gyOZDRrc
+Next https://www.evernote.com/l/AO8fsVRiLppCvITvbX21iKNIFL8gyOZDRrc
 
 
 ==== 【乐山景然重写稿】【ABO】18  ===
@@ -998,7 +998,7 @@ Next https://www.evernote.com/l/AO8fsVRiLppCvITvbX21iKNIFL8gyOZDRrc
 
 张景然一把拉过韩哥，小声问：“你受伤了？怎么不上？身体怎么了？”
 
-韩乐山表示待会解释，一边上去帮韩乐水纠正动作。 张景然一听，求之不得着呢。本来韩乐水一起过来的时候，他心里还一沉，想着好不容易韩哥来看自己一趟，居然还带了个小拖油瓶，这会儿听说有“待会”可以“私下”解释，暗指小拖油瓶一会儿要先滚蛋！那真是喜出望外！但韩乐山这身体是怎么了？不会是上次生理期操坏了？还是外头搞大的肚子？要真大了肚子，他张景然也不管了，冒着一身绿也得把韩乐山娶下来啊，不然韩哥一个人，孩子户口都上不了… 又假如是韩哥不想要这个孩子，那自己也可以顶下来替他养着，这样韩哥将来找别人结婚也没有累赘…. 
+韩乐山表示待会解释，一边上去帮韩乐水纠正动作。 张景然一听，求之不得着呢。本来韩乐水一起过来的时候，他心里还一沉，想着好不容易韩哥来看自己一趟，居然还带了个小拖油瓶，这会儿听说有“待会”可以“私下”解释，暗指小拖油瓶一会儿要先滚蛋！那真是喜出望外！但韩乐山这身体是怎么了？不会是上次生理期操坏了？还是外头搞大的肚子？要真大了肚子，他张景然也不管了，冒着一身绿也得把韩乐山娶下来啊，不然韩哥一个人，孩子户口都上不了… 又假如是韩哥不想要这个孩子，那自己也可以顶下来替他养着，这样韩哥将来找别人结婚也没有累赘….
 
 韩乐水在张景然屋里左翻翻，右看看，丝毫不知道张景然已经把自己那还没影的侄子叫啥名都想好了。
 
@@ -1014,7 +1014,7 @@ Next https://www.evernote.com/l/AO8fsVRiLppCvITvbX21iKNIFL8gyOZDRrc
 
 乐水之后约了人打球，这会儿把韩乐山拉到门外，语重心长的说，“老哥，我觉得这张景然真是一表人才，你估计配不上人家。不过不要紧，老弟我帮你想好了，你生理期的时候和我说，我就把你送过来。你呢加油，怀上张景然的崽子。到时候我们哥俩再连个手，叫张景然把这事情认下，结下秦晋之好。怎么样，老弟帮你考虑的深远吧！可比老爹老爸那种，只知道给你塞人相亲的，不知道高到哪去了！”
 
-韩乐山：看来弟弟平时看什么书，是要管一管了… 
+韩乐山：看来弟弟平时看什么书，是要管一管了…
 
 ....
 
@@ -1022,9 +1022,9 @@ Next https://www.evernote.com/l/AO8fsVRiLppCvITvbX21iKNIFL8gyOZDRrc
 
 张景然还在大门口和乐水招手呢，韩哥就没了影，一转身，看到韩乐山正挂在架子上，上上下下做引体向上。
 
-张景然：韩哥，当心肚里的孩子…  哦，等等… 看这矫健的身姿我猜应该肚里还没有孩子…
+张景然：韩哥，当心肚里的孩子… 哦，等等… 看这矫健的身姿我猜应该肚里还没有孩子…
 
-韩乐山：肚里孩子啥的本来就是你老人家的意淫好么… 
+韩乐山：肚里孩子啥的本来就是你老人家的意淫好么…
 
 韩哥做了几个，尤不过瘾，把书包塞满了书，挂在腿上当负重，又跳了上去。
 
@@ -1066,7 +1066,7 @@ Next https://www.evernote.com/l/AO8fsVRiLppCvITvbX21iKNIFL8gyOZDRrc
 
 景然听了，悠悠的叹了口气。这爹坑起来，和自家的爹有得一拼。
 
-Next https://www.evernote.com/l/AO_7o40TRY5GhYl977eemK5iKzEzQFHzI0A
+Next https://www.evernote.com/l/AO_7o40TRY5GhYl977eemK5iKzEzQFHzI0A
 
 
 ==== 【乐山景然重写稿】【ABO】19  ===
@@ -1168,7 +1168,7 @@ next https://www.evernote.com/l/AO_cLzDzie9E6bEQ5Mvnco4Fa0vM-MOJZlY
 
 也不知道韩哥对嫁人这个事情，究竟是个什么规划。韩哥样样事情都算好，桩桩件件都妥当，唯有这事，他也不提，就是躲着。
 
-自己巴巴的送上去，韩哥也只是回复了个“哦”字。他张景然何尝不知道，韩哥讨厌这种安排，讨厌这种一定要结婚的规定，讨厌这种，从属于一个人的感觉。可等到要真到不能躲的那天，韩哥会怎么办呢，韩哥能怎么办呢…. 
+自己巴巴的送上去，韩哥也只是回复了个“哦”字。他张景然何尝不知道，韩哥讨厌这种安排，讨厌这种一定要结婚的规定，讨厌这种，从属于一个人的感觉。可等到要真到不能躲的那天，韩哥会怎么办呢，韩哥能怎么办呢….
 
 “我也没什么志向，就求不害他人，无愧于心。” 韩乐山叹了口气，淡淡的说。
 
@@ -1184,7 +1184,7 @@ next https://www.evernote.com/l/AO_cLzDzie9E6bEQ5Mvnco4Fa0vM-MOJZlY
 
 张景然坐在教室里，听到消息，心一动…
 
-next https://www.evernote.com/l/AO_ZjSJ2MPFIEIPIqY-7xWHx6EPJJQ5NDPU
+next https://www.evernote.com/l/AO_ZjSJ2MPFIEIPIqY-7xWHx6EPJJQ5NDPU
 
 
 ==== 【乐山景然重写稿】【ABO】21  ===
@@ -1244,7 +1244,7 @@ next https://www.evernote.com/l/AO_ZjSJ2MPFIEIPIqY-7xWHx6EPJJQ5NDPU
 
 【老张什么时候挨操，哎，急死我啦，下章就通过操老张推动感情线吧...】
 
-next https://www.evernote.com/l/AO9csImP529GXZDoPpYM-wO7XQ6nBz5-yPA
+next https://www.evernote.com/l/AO9csImP529GXZDoPpYM-wO7XQ6nBz5-yPA
 
 
 ==== 【乐山景然重写稿】【ABO】22  ===
@@ -1268,7 +1268,7 @@ next https://www.evernote.com/l/AO9csImP529GXZDoPpYM-wO7XQ6nBz5-yPA
 
 哎？原来我今天来是来挨操的？韩乐山摸不着头脑。说起来自己生理期常常过来，老张帮忙做了很多伟大的工作，这么来而不往，确实不太好，老张有需求的时候，自己也该帮着照顾照顾… 而且自己最近还研制了一拨新产品，正好老张可以试着玩玩。
 
-有需求可以直说嘛，这样又锁门又脱裤的，不太好…. 
+有需求可以直说嘛，这样又锁门又脱裤的，不太好….
 
 等等，这个事情的发展好像有点奇怪… 一眨眼的功夫，韩乐山只见张景然脱了裤子趴在床边，嘴里叼着不知道从哪里来的吸管，一副视死如归的样子。彩虹色的吸管因为咬得太紧，还一动一动的，莫名喜感。“老张？你还好么？出什么事了么？有啥事咱们把裤子穿起来说…”
 
@@ -1308,7 +1308,7 @@ next https://www.evernote.com/l/AO9csImP529GXZDoPpYM-wO7XQ6nBz5-yPA
 
 倒霉孩子张景然，最后都没说出来，当年体育课上，韩乐山一句，“想找个能被自己操的男朋友”，自己犹犹豫豫了小半年，怕疼怕残怕得要死，翻来覆去十几个晚上。终于等到今朝，咬咬牙，像上战场一样，脱下了裤子。
 
-Next https://www.evernote.com/l/AO9EKZ_51OBGw7SueDQXwrVw_m9TI_OL00o
+Next https://www.evernote.com/l/AO9EKZ_51OBGw7SueDQXwrVw_m9TI_OL00o
 
 
 ==== 【乐山景然重写稿】【ABO】23  ===
@@ -1354,7 +1354,7 @@ Next https://www.evernote.com/l/AO9EKZ_51OBGw7SueDQXwrVw_m9TI_OL00o
 
 张景然听到动静也起来了，看老爹这个样子，也是嫌弃他丢脸。张爹把，进也不是，退也不是，嘟嘟囔囔，“A没A样，O没O样”，气冲冲的去上厕所了。
 
-说起来，自己这个儿子，怎么说也翻来覆去也睡了这姓韩的Omega大半年了啊，也该负个责了吧！可别真的闹出事来… 难道自己这个儿子，是只睡觉不负责的路数？那可怎么办？这结婚毕业工作搬家一套武当长拳，起手式就打不出来，自己以后难道真的要孤老余生么！
+说起来，自己这个儿子，怎么说也翻来覆去也睡了这姓韩的Omega大半年了啊，也该负个责了吧！可别真的闹出事来… 难道自己这个儿子，是只睡觉不负责的路数？那可怎么办？这结婚毕业工作搬家一套武当长拳，起手式就打不出来，自己以后难道真的要孤老余生么！
 
 再看这Omega，真太没O样了，以后家庭能幸福么，要张景然离婚，不还是要搬回来！自己说不定当时已经找了个Omega，孩子都又生好几个了，这张景然再回来，算什么事？
 
@@ -1362,7 +1362,7 @@ Next https://www.evernote.com/l/AO9EKZ_51OBGw7SueDQXwrVw_m9TI_OL00o
 
 【特么为什么这个故事里，家长都是神经病…. 我只能这样解释，社会有病，病到每个细胞？】
 
-next https://www.evernote.com/l/AO_sX9lUc7xHxKbm-Ijn_HleSqcfgVJqq78
+next https://www.evernote.com/l/AO_sX9lUc7xHxKbm-Ijn_HleSqcfgVJqq78
 
 
 ==== 【乐山景然重写稿】【ABO】24  ===
@@ -1422,9 +1422,9 @@ next https://www.evernote.com/l/AO_sX9lUc7xHxKbm-Ijn_HleSqcfgVJqq78
 
 张景然：那些姿势，都是你哥教我的…
 
-内部资料：是的，自从老张抛弃了我，他就自己开始写黄书了… 
+内部资料：是的，自从老张抛弃了我，他就自己开始写黄书了…
 
-Next https://www.evernote.com/l/AO_fBexCMzpLFLEAmSCNJnclf0wiXYHAKxU
+Next https://www.evernote.com/l/AO_fBexCMzpLFLEAmSCNJnclf0wiXYHAKxU
 
 
 ==== 【乐山景然重写稿】【ABO】25  ===
@@ -1432,11 +1432,11 @@ Next https://www.evernote.com/l/AO_fBexCMzpLFLEAmSCNJnclf0wiXYHAKxU
 
 韩乐山第一次出省，就是沾了全国赛的光，公费。
 
-到了全国赛，各大高校招生办的人也看着，分数就不怎么“调剂”了。韩乐山确实考的好，几百人当中考了第二。 
+到了全国赛，各大高校招生办的人也看着，分数就不怎么“调剂”了。韩乐山确实考的好，几百人当中考了第二。
 
 然并卵。没有招生办的人找他。在几个学校为了前三十名的学生抢破头的时候，大家都忽略了他韩乐山。
 
-如果山不来找买买提，那买买提就去找山。 —— 法国就是培根 
+如果山不来找买买提，那买买提就去找山。 —— 法国就是培根
 
 【这个梗是不是太晦涩了...】
 
@@ -1514,7 +1514,7 @@ Next https://www.evernote.com/l/AO_fBexCMzpLFLEAmSCNJnclf0wiXYHAKxU
 
 【预告：江思以后就要带着男朋友沿着青州王的路线，拿着狮子旗，出逃天竺了..】
 
-next https://www.evernote.com/l/AO8flOQgE69P-IvFmRFGGckGAlvdLuFRVgw
+next https://www.evernote.com/l/AO8flOQgE69P-IvFmRFGGckGAlvdLuFRVgw
 
 
 ==== 【乐山景然重写稿】【ABO】26  ===
@@ -1552,7 +1552,7 @@ next https://www.evernote.com/l/AO8flOQgE69P-IvFmRFGGckGAlvdLuFRVgw
 
 比如今天，打电话给老哥，老哥没有接的时候。
 
-等到韩乐山一身汗味到张家的时候，张爹又作妖，“Omega家家，一身汗味，一点都不自重！” 
+等到韩乐山一身汗味到张家的时候，张爹又作妖，“Omega家家，一身汗味，一点都不自重！”
 
 张景然憋了几个小时的火，这时候终于发了出来：“爹，少说两句吧！有谁运动不出汗的！”
 
@@ -1596,7 +1596,7 @@ next https://www.evernote.com/l/AO8flOQgE69P-IvFmRFGGckGAlvdLuFRVgw
 
 舒服倒是舒服的，只是这玩意是什么？待会会不会把我的屌吸走？虽然说有屌也没什么用，但要突然被吸走也蛮危险的韩哥你说是不是？
 
-“你自己来两下试试？” 
+“你自己来两下试试？”
 
 好吧，稍微清醒一下，感觉这好像是什么韩哥新做的违禁品…. 透明的一个软软的桶，插进去的时候还会转，真是蛮舒适的…
 
@@ -1628,7 +1628,7 @@ next https://www.evernote.com/l/AO8flOQgE69P-IvFmRFGGckGAlvdLuFRVgw
 
 韩哥，你可别随随便便死了….
 
-next https://www.evernote.com/l/AO-Bj3eiLYVBZIbTs9mrO-M9gjqebflCrqQ
+next https://www.evernote.com/l/AO-Bj3eiLYVBZIbTs9mrO-M9gjqebflCrqQ
 
 
 ==== 【乐山景然重写稿】【ABO】27  ===
@@ -1672,13 +1672,13 @@ next https://www.evernote.com/l/AO-Bj3eiLYVBZIbTs9mrO-M9gjqebflCrqQ
 
 啊哟我的天！要不是那天撞见汪思在家里偷偷吃甜品，他谢振初差点就信了汪思的戏！
 
-要不要这么别扭啊…. 
+要不要这么别扭啊….
 
 【背景设定：汪思的亲爸生完汪思跑了】
 
 【这个故事里张景然的设定和三界里那个比较像，闷骚，内心小叛逆，外表保持道貌岸然。学术篇里那个就比较别扭，外表规矩，内心挣扎。韩乐山的设定一直是自信，自带小小金手指。除了学术篇没遭灾之外，三界和ABO里都算是命运比较遭灾。】
 
-Next https://www.evernote.com/l/AO8DsMKel4BIn6weFGZQZXDj9uggtP_pMHQ
+Next https://www.evernote.com/l/AO8DsMKel4BIn6weFGZQZXDj9uggtP_pMHQ
 
 TODO：
 
