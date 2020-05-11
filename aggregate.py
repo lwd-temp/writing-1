@@ -106,6 +106,7 @@ def downloadDoc(url, filename):
 	os.system('rm %s' % zip_name)
 
 word_count = 0
+download('https://www.evernote.com/l/AO_feS-OQUdCELC_K55hc4B_iQ7cq2SwAMc', '我喜欢的Omega要上我')
 download('https://www.evernote.com/l/AO_672HguTBASYJX8xYB_wpilOnLu0pXfZY', '城市的另一边')
 download('https://www.evernote.com/l/AO9NCICZw1JOoL80CKiBuaKkfpdzSA8wRkw', 'Telegram群组推荐', skip_total_count=True)
 download('https://www.evernote.com/l/AO_jZ8RzOtpAGLoLisqlnc2KGuQyM0thtGY', '穿越进黄文我不知所措')
