@@ -7,9 +7,7 @@ import yaml
 import datetime
 import sys
 import os
-from telegram_util import cleanFileName, compactText
-import requests
-from PIL import Image
+from telegram_util import compactText
 from opencc import OpenCC
 cc = OpenCC('s2tw')
 
@@ -57,82 +55,71 @@ def getTime():
 def countWord(x):
 	return len([c for c in x if c.isalpha() and ord(c) > 255])
 
-def download(url, filename = None, skip_total_count = False):
-	global word_count
-	content = []
-	result = []
-	raw_result = []
-	words = []
+def download(filename = None, url = None, dirname = 'original'):
+	content = [] # no chapter name, no comments
+	result = [] # with chapter name, no comments
+	raw_result = [] # with chapter name and comments
 	while url:
 		text, title, url, raw_text = getContent(url + '?json=1')
 		if not filename:
 			filename = title
+			if '大纲' in filename:
+				dirname = 'other'
 		content.append(text)
 		result.append('\n\n\n==== %s  ===\n\n\n' % title + text)
 		raw_result.append('\n\n\n==== %s  ===\n\n\n' % title + raw_text)
-		words.append(countWord(text))
 	result = clearText(''.join(result))
-	with open('original/%s.md' % filename, 'w') as f:
+	with open('%s/%s.md' % (dirname, filename), 'w') as f:
 		f.write(result)
 	with open('traditional/%s.md' % cc.convert(filename), 'w') as f:
 		f.write(cc.convert(result))
-	old_result = ''
-	try:
-		with open('raw/%s.md' % filename) as f:
-			old_result = f.read()
-	except:
-		pass
 	with open('raw/%s.md' % filename, 'w') as f:
 		f.write(''.join(raw_result))
-	if old_result != ''.join(raw_result):
-		print(filename, words, sum(words))
-	if not skip_total_count:
-		word_count += sum(words)
+	return content, dirname, filename
 
-def downloadDoc(url, filename):
-	content = requests.get(url)
-	os.system('mkdir html/' + filename)
-	zip_name = 'html/' + filename + '/tmp.zip'
-	with open(zip_name, 'wb') as f:
-		f.write(content.content)
-	os.system('cd html/%s && unzip -o tmp.zip' % filename)
-	dname = 'html/%s/images/' % filename
-	for f in os.listdir(dname):
-		try:
-			im = Image.open(dname + f)
-			im.save(dname + f, dpi=(150,150))
-		except:
-			pass
-	os.system('rm %s' % zip_name)
+def process():
+	word_count = 0
+	result = [
+		download('我喜欢的Omega要上我', url = 'https://www.evernote.com/l/AO_feS-OQUdCELC_K55hc4B_iQ7cq2SwAMc'),
+		download('城市的另一边', url = 'https://www.evernote.com/l/AO_672HguTBASYJX8xYB_wpilOnLu0pXfZY'),
+		download('Telegram群组推荐', url = 'https://www.evernote.com/l/AO9NCICZw1JOoL80CKiBuaKkfpdzSA8wRkw', dirname = 'other'),
+		download('穿越进黄文我不知所措', url = 'https://www.evernote.com/l/AO_jZ8RzOtpAGLoLisqlnc2KGuQyM0thtGY'),
+		download('面向对象编程', url = 'https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI'),
+		download('乐山景然ABO', url = 'https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw'),
+		download('学术生涯篇', url = 'https://www.evernote.com/l/AO8Z7ocFEpJJjatcpUFs4oyx1F7g9knqfPA'),
+		download('穿越阵容有点大', url = 'https://www.evernote.com/l/AO9X4c31vqVPE5Vs0fHDaQ3INH9qfsne36s'),
+		download('三界', url = 'https://www.evernote.com/l/AO8FA3cJQNxEvo5QuwX6vu6GI3n9_KjoRFg'),
+		download('我家是个妖精窝？', url = 'https://www.evernote.com/l/AO-WkVchLy9OGrNULCWHoJ23CC6K8kw8CDQ'),
+		download('江南台T城', url = 'https://www.evernote.com/l/AO84Q8Hc-mhJ6YNbUdtypUBDPpIeT-ZW73g'),
+		download(url = 'https://www.evernote.com/l/AO_odyI4w7xEj4MmiBa8PLBiDju8GIuJsI0', dirname = 'critics'),
+		download(url = 'https://www.evernote.com/l/AO_WUvEn1eZPP4iUJb1QI6fOlxuvo9TpaPE', dirname = 'critics'),
+		download(url = 'https://www.evernote.com/l/AO_dG7QCcrREsr-VjZ5QUJ02Riuk1GzXSNk', dirname = 'critics'),
+		download(url = 'https://www.evernote.com/l/AO_jic8bMCVBw7ylY8987nTR0rE8TENbbrc', dirname = 'other'),
+		download(url = 'https://www.evernote.com/l/AO_aeRztT0BOsrziVg2JkOguEXPdXd1g1oQ', dirname = 'other'),
+		download(url = 'https://www.evernote.com/l/AO8Kzrbwz3RFMaBNpVHK761skS4nm3LbD1Y', dirname = 'other'),
+		download(url = 'https://www.evernote.com/l/AO_c2o2SX7NCUJkHIkCzX70YOBMrS_3VeCM', dirname = 'other'),
+	]
 
-word_count = 0
-download('https://www.evernote.com/l/AO_feS-OQUdCELC_K55hc4B_iQ7cq2SwAMc', '我喜欢的Omega要上我')
-download('https://www.evernote.com/l/AO_672HguTBASYJX8xYB_wpilOnLu0pXfZY', '城市的另一边')
-download('https://www.evernote.com/l/AO9NCICZw1JOoL80CKiBuaKkfpdzSA8wRkw', 'Telegram群组推荐', skip_total_count=True)
-download('https://www.evernote.com/l/AO_jZ8RzOtpAGLoLisqlnc2KGuQyM0thtGY', '穿越进黄文我不知所措')
-download('https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI', '面向对象编程')
-download('https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw', '乐山景然ABO')
-download('https://www.evernote.com/l/AO8Z7ocFEpJJjatcpUFs4oyx1F7g9knqfPA', '学术生涯篇')
-download('https://www.evernote.com/l/AO9X4c31vqVPE5Vs0fHDaQ3INH9qfsne36s', '穿越阵容有点大')
-download('https://www.evernote.com/l/AO8FA3cJQNxEvo5QuwX6vu6GI3n9_KjoRFg', '三界')
-download('https://www.evernote.com/l/AO-WkVchLy9OGrNULCWHoJ23CC6K8kw8CDQ', '我家是个妖精窝？')
-download('https://www.evernote.com/l/AO84Q8Hc-mhJ6YNbUdtypUBDPpIeT-ZW73g', '江南台T城')
-download('https://www.evernote.com/l/AO_odyI4w7xEj4MmiBa8PLBiDju8GIuJsI0')
-download('https://www.evernote.com/l/AO_WUvEn1eZPP4iUJb1QI6fOlxuvo9TpaPE')
-download('https://www.evernote.com/l/AO_dG7QCcrREsr-VjZ5QUJ02Riuk1GzXSNk')
-download('https://www.evernote.com/l/AO_jic8bMCVBw7ylY8987nTR0rE8TENbbrc', skip_total_count=True)
-download('https://www.evernote.com/l/AO_aeRztT0BOsrziVg2JkOguEXPdXd1g1oQ', skip_total_count=True)
-download('https://www.evernote.com/l/AO8Kzrbwz3RFMaBNpVHK761skS4nm3LbD1Y', skip_total_count=True)
-download('https://www.evernote.com/l/AO_c2o2SX7NCUJkHIkCzX70YOBMrS_3VeCM', skip_total_count=True)
+	result = [([countWord(chapter) for chapter in x[0]], 
+		x[2]) for x in result if x[1] in ['original', 'critics']]
 
-if 'notail' not in sys.argv:
-	with open('word_count.txt', 'a') as f:
-		f.write('%s\t\t%d\n' % (getTime(), word_count))
-command = 'git add . && git commit -m "%s" && git push -u -f'
-if len(sys.argv) > 1:
-	message = sys.argv[1]
-else:
-	message = 'commit'
-if message == 'notail':
-	message = 'auto_commit'
-os.system(command % message)
+	with open('other/word_count_detail.txt', 'w') as f:
+		for sub_word_count, filename in result:
+			f.write('%s %d %s\n' % (filename, sum(sub_word_count), str(sub_word_count)))
+
+	if 'notail' not in sys.argv:
+		total_words = sum([sum(x[0]) for x in result])
+		with open('other/word_count_history.txt', 'a') as f:
+			f.write('%s\t\t%d\n' % (getTime(), total_words))
+
+	command = 'git add . && git commit -m "%s" && git push -u -f'
+	if len(sys.argv) > 1:
+		message = sys.argv[1]
+	else:
+		message = 'commit'
+	if message == 'notail':
+		message = 'auto_commit'
+	os.system(command % message)
+
+if __name__ == '__main__':
+	process()

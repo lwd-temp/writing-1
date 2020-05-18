@@ -86,6 +86,8 @@ TGCN頻道搜索 https://t.me/zh_groups_bot
 
 文學部 https://t.me/dailywenxue
 
+社會倡議 https://t.me/udnubrand
+
 群組：
 
 讀書討論 https://t.me/dushufenxiang_chat

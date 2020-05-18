@@ -86,6 +86,8 @@ TGCN频道搜索 https://t.me/zh_groups_bot
 
 文学部 https://t.me/dailywenxue
 
+社会倡议 https://t.me/udnubrand
+
 群组：
 
 读书讨论 https://t.me/dushufenxiang_chat
