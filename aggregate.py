@@ -80,6 +80,7 @@ def download(filename = None, url = None, dirname = 'original'):
 def process():
 	word_count = 0
 	result = [
+		download('学霸要同我困觉', url = 'https://www.evernote.com/l/AO-wRhOju25ISYFo1zTtJkbB_ngPEfsEm6U'),
 		download('我喜欢的Omega要上我', url = 'https://www.evernote.com/l/AO_feS-OQUdCELC_K55hc4B_iQ7cq2SwAMc'),
 		download('城市的另一边', url = 'https://www.evernote.com/l/AO_672HguTBASYJX8xYB_wpilOnLu0pXfZY'),
 		download('Telegram群组推荐', url = 'https://www.evernote.com/l/AO9NCICZw1JOoL80CKiBuaKkfpdzSA8wRkw', dirname = 'other'),
