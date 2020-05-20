@@ -112,7 +112,7 @@ def process():
 		x[1], x[2]) for x in result]
 
 	with open('other/word_count_detail.txt', 'w') as f:
-		for sub_word_count, filename, dirname in result:
+		for sub_word_count, dirname, filename in result:
 			if '大纲' not in filename:
 				f.write('%s %d %s\n' % (filename, sum(sub_word_count), str(sub_word_count)))
 
