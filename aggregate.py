@@ -94,7 +94,7 @@ def process():
 		download('穿越进黄文我不知所措', url = 'https://www.evernote.com/l/AO_jZ8RzOtpAGLoLisqlnc2KGuQyM0thtGY'),
 		download('面向对象编程', url = 'https://www.evernote.com/l/AO9AYm5PtJtHIZb5W7RvOFPjNGxENZ9uQiI'),
 		download('乐山景然ABO', url = 'https://www.evernote.com/l/AO9Nsp2x2-5LBJCMbJvjQNK6zjezsttrIPw'),
-		download('学术生涯篇', url = 'https://www.evernote.com/l/AO8Z7ocFEpJJjatcpUFs4oyx1F7g9knqfPA'),
+		download('学术生涯篇', url = 'https://www.evernote.com/l/AO8Z7ocFEpJJjatcpUFs4oyx1F7g9knqfPA', dirname = 'other'),
 		download('穿越阵容有点大', url = 'https://www.evernote.com/l/AO9X4c31vqVPE5Vs0fHDaQ3INH9qfsne36s'),
 		download('三界', url = 'https://www.evernote.com/l/AO8FA3cJQNxEvo5QuwX6vu6GI3n9_KjoRFg'),
 		download('我家是个妖精窝？', url = 'https://www.evernote.com/l/AO-WkVchLy9OGrNULCWHoJ23CC6K8kw8CDQ'),
