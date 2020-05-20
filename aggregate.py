@@ -109,14 +109,16 @@ def process():
 	]
 
 	result = [([countWord(chapter) for chapter in x[0]], 
-		x[2]) for x in result if x[1] in ['original', 'critics']]
+		x[1], x[2]) for x in result]
 
 	with open('other/word_count_detail.txt', 'w') as f:
-		for sub_word_count, filename in result:
-			f.write('%s %d %s\n' % (filename, sum(sub_word_count), str(sub_word_count)))
+		for sub_word_count, filename, dirname in result:
+			if '大纲' not in filename:
+				f.write('%s %d %s\n' % (filename, sum(sub_word_count), str(sub_word_count)))
 
 	if 'notail' not in sys.argv:
-		total_words = sum([sum(x[0]) for x in result])
+		total_words = sum([sum(x[0]) for x in result 
+			if x[1] in ['original', 'critics']])
 		with open('other/word_count_history.txt', 'a') as f:
 			f.write('%s\t\t%d\n' % (getTime(), total_words))
 
