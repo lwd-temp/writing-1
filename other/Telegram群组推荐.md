@@ -88,6 +88,10 @@ TGCN频道搜索 https://t.me/zh_groups_bot
 
 社会倡议 https://t.me/udnubrand
 
+日语学习 https://t.me/jp_study
+
+微博精选 https://t.me/weibo_read
+
 群组：
 
 读书讨论 https://t.me/dushufenxiang_chat
@@ -121,6 +125,8 @@ Telegram搜索 https://t.me/sssoou_resource
 Python学习 https://t.me/Python4Developer
 
 台湾求职 https://t.me/taiwanjob
+
+Matters讨论 https://t.me/thematters
 
 存档：
 
