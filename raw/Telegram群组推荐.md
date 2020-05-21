@@ -96,6 +96,8 @@ TGCN频道搜索 https://t.me/zh_groups_bot
 
 微博精选 https://t.me/weibo_read
 
+欧美文学 https://t.me/oneiroszzz
+
 群组：
 
 读书讨论 https://t.me/dushufenxiang_chat

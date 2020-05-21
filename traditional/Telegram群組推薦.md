@@ -92,6 +92,8 @@ TGCN頻道搜索 https://t.me/zh_groups_bot
 
 微博精選 https://t.me/weibo_read
 
+歐美文學 https://t.me/oneiroszzz
+
 群組：
 
 讀書討論 https://t.me/dushufenxiang_chat
