@@ -104,11 +104,11 @@ def process():
 		download(url = 'https://www.evernote.com/l/AO_dG7QCcrREsr-VjZ5QUJ02Riuk1GzXSNk', dirname = 'critics'),
 		download(url = 'https://www.evernote.com/l/AO_jic8bMCVBw7ylY8987nTR0rE8TENbbrc', dirname = 'other'),
 		download(url = 'https://www.evernote.com/l/AO_aeRztT0BOsrziVg2JkOguEXPdXd1g1oQ'),
-		download(url = 'https://www.evernote.com/l/AO8Kzrbwz3RFMaBNpVHK761skS4nm3LbD1Y', dirname = 'other'),
+		download(url = 'https://www.evernote.com/l/AO8Kzrbwz3RFMaBNpVHK761skS4nm3LbD1Y'),
 		download(url = 'https://www.evernote.com/l/AO_c2o2SX7NCUJkHIkCzX70YOBMrS_3VeCM', dirname = 'other'),
 	]
 
-	skip_count_fn = ['飞机杯', '学术生涯篇']
+	skip_count_fn = ['飞机杯', '学术生涯篇', '刚强众生']
 	result = [([countWord(chapter) for chapter in x[0]], 
 		x[1], x[2]) for x in result and not matchKey(x[2], skip_count_fn)]
 
