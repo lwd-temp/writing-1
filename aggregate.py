@@ -108,18 +108,19 @@ def process():
 		download(url = 'https://www.evernote.com/l/AO_c2o2SX7NCUJkHIkCzX70YOBMrS_3VeCM', dirname = 'other'),
 	]
 
-	skip_count_fn = ['飞机杯', '学术生涯篇', '刚强众生']
 	result = [([countWord(chapter) for chapter in x[0]], 
-		x[1], x[2]) for x in result and not matchKey(x[2], skip_count_fn)]
+		x[1], x[2]) for x in result]
 
 	with open('other/word_count_detail.txt', 'w') as f:
 		for sub_word_count, dirname, filename in result:
 			if '大纲' not in filename:
 				f.write('%s %d %s\n' % (filename, sum(sub_word_count), str(sub_word_count)))
 
+	skip_count_fn = ['飞机杯', '学术生涯篇', '刚强众生']
 	if 'notail' not in sys.argv:
 		total_words = sum([sum(x[0]) for x in result 
-			if x[1] in ['original', 'critics']])
+			if x[1] in ['original', 'critics'] and 
+			not matchKey(x[2], skip_count_fn)])
 		with open('other/word_count_history.txt', 'a') as f:
 			f.write('%s\t\t%d\n' % (getTime(), total_words))
 
