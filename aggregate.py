@@ -59,6 +59,23 @@ def mkdirs(*args):
 	for arg in args:
 		os.system('mkdir %s > /dev/null 2>&1' % arg)
 
+def downloadtoc(url):
+	content = cached_url.get(url)
+	content = yaml.load(content, Loader=yaml.FullLoader)
+	b = BeautifulSoup(content['content'], 'html.parser')
+	_, dirname, _, _ = getContent(url + '?json=1')
+	mkdirs('fragment', 'fragment/' + dirname, 'fragment/raw', 'fragment/raw' + dirname)
+	content = []
+	for item in b.find_all('a'):
+		sub_url = item['href']
+		text, title, _, raw_text = getContent(sub_url + '?json=1')
+		with open('fragment/%s/%s.md' % (dirname, title), 'w') as f:
+			f.write(text)
+		with open('fragment/raw/%s/%s.md' % (dirname, title), 'w') as f:
+			f.write(raw_text)
+		content.append(text)
+	return content, 'fragment', dirname
+
 def download(filename = None, url = None, dirname = 'original'):
 	content = [] # no chapter name, no comments
 	result = [] # with chapter name, no comments
@@ -106,6 +123,7 @@ def process():
 		download(url = 'https://www.evernote.com/l/AO_aeRztT0BOsrziVg2JkOguEXPdXd1g1oQ'),
 		download(url = 'https://www.evernote.com/l/AO8Kzrbwz3RFMaBNpVHK761skS4nm3LbD1Y'),
 		download(url = 'https://www.evernote.com/l/AO_c2o2SX7NCUJkHIkCzX70YOBMrS_3VeCM', dirname = 'other'),
+		downloadtoc(url = 'https://www.evernote.com/l/AO8Ep_mBTYZIYp2dP5iV5_25MvmtKBV81Wk')
 	]
 
 	result = [([countWord(chapter) for chapter in x[0]], 
