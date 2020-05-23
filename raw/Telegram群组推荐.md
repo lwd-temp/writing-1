@@ -98,6 +98,8 @@ TGCN频道搜索 https://t.me/zh_groups_bot
 
 欧美文学 https://t.me/oneiroszzz
 
+墙内反思 https://t.me/qiangneifansi
+
 群组：
 
 读书讨论 https://t.me/dushufenxiang_chat

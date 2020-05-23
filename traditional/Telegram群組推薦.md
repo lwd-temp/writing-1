@@ -94,6 +94,8 @@ TGCN頻道搜索 https://t.me/zh_groups_bot
 
 歐美文學 https://t.me/oneiroszzz
 
+牆內反思 https://t.me/qiangneifansi
+
 群組：
 
 讀書討論 https://t.me/dushufenxiang_chat
