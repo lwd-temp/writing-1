@@ -64,6 +64,7 @@ def downloadtoc(url):
 	content = yaml.load(content, Loader=yaml.FullLoader)
 	b = BeautifulSoup(content['content'], 'html.parser')
 	_, dirname, _, _ = getContent(url + '?json=1')
+	os.system('rm -ef fragment/%s > /dev/null 2>&1' % dirname)
 	mkdirs('fragment', 'fragment/' + dirname, 'fragment/raw', 'fragment/raw/' + dirname)
 	content = []
 	for item in b.find_all('a'):
