@@ -112,7 +112,7 @@ def downloadAgg(url):
 	for item in b.find_all('a'):
 		sub_url = item['href']
 		print(item)
-		yield download(url = sub_url)
+		yield download(url = sub_url, title = item.text)
 
 def process():
 	word_count = 0
