@@ -111,8 +111,10 @@ def downloadAgg(url):
 	b = BeautifulSoup(content['content'], 'html.parser')
 	for item in b.find_all('a'):
 		sub_url = item['href']
-		print(item)
-		yield download(url = sub_url, title = item.text)
+		fn = item.text
+		if 'evernote' in fn:
+			fn = None
+		yield download(url = sub_url, filename = fn)
 
 def process():
 	word_count = 0
