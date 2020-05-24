@@ -75,7 +75,7 @@ def downloadtoc(url):
 		with open('fragment/raw/%s/%s.md' % (dirname, title), 'w') as f:
 			f.write(raw_text)
 		content.append(text)
-	result = clearText(''.join(result))
+	result = clearText(''.join(content))
 	with open('fragment/%s/total.md' % dirname, 'w') as f:
 		f.write(result)
 	return content, 'fragment', dirname
