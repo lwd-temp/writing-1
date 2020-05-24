@@ -105,6 +105,14 @@ def download(filename = None, url = None, dirname = 'original'):
 		f.write(''.join(raw_result))
 	return content, dirname, filename
 
+def downloadAgg(url):
+	content = cached_url.get(url + '?json=1')
+	content = yaml.load(content, Loader=yaml.FullLoader)
+	b = BeautifulSoup(content['content'], 'html.parser')
+	for item in b.find_all('a'):
+		sub_url = item['href']
+		print(item)
+
 def process():
 	word_count = 0
 	result = [
@@ -128,7 +136,7 @@ def process():
 		download(url = 'https://www.evernote.com/l/AO8Kzrbwz3RFMaBNpVHK761skS4nm3LbD1Y'),
 		download(url = 'https://www.evernote.com/l/AO_c2o2SX7NCUJkHIkCzX70YOBMrS_3VeCM', dirname = 'other'),
 		downloadtoc(url = 'https://www.evernote.com/l/AO8Ep_mBTYZIYp2dP5iV5_25MvmtKBV81Wk')
-	]
+	] + downloadAgg(url = 'https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')
 
 	result = [([countWord(chapter) for chapter in x[0]], 
 		x[1], x[2]) for x in result]
