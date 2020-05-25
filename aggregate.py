@@ -159,14 +159,6 @@ def process():
 			if '大纲' not in filename:
 				f.write('%s %d %s\n' % (filename, sum(sub_word_count), str(sub_word_count)))
 
-	skip_count_fn = ['飞机杯', '学术生涯篇', '刚强众生']
-	if 'notail' not in sys.argv:
-		total_words = sum([sum(x[0]) for x in result 
-			if x[1] in ['original', 'critics'] and 
-			not matchKey(x[2], skip_count_fn)])
-		with open('other/word_count_history.txt', 'a') as f:
-			f.write('%s\t\t%d\n' % (getTime(), total_words))
-
 	command = 'git add . && git commit -m "%s" && git push -u -f'
 	if len(sys.argv) > 1:
 		message = sys.argv[1]
