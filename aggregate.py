@@ -149,7 +149,7 @@ def process():
 		download(url = 'https://www.evernote.com/l/AO8Kzrbwz3RFMaBNpVHK761skS4nm3LbD1Y'),
 		download(url = 'https://www.evernote.com/l/AO_c2o2SX7NCUJkHIkCzX70YOBMrS_3VeCM', dirname = 'other'),
 	] + list(downloadAgg(url = 'https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')) 
-	+ + list(downloadFragmentAgg(url = 'https://www.evernote.com/l/AO9x3HSQu4BMLYK-NT91Rl4z7OzA5h9onMg'))
+	+ list(downloadFragmentAgg(url = 'https://www.evernote.com/l/AO9x3HSQu4BMLYK-NT91Rl4z7OzA5h9onMg'))
 
 	result = [([countWord(chapter) for chapter in x[0]], 
 		x[1], x[2]) for x in result]
