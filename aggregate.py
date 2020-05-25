@@ -82,6 +82,14 @@ def downloadtoc(url):
 		f.write(result)
 	return content, 'fragment', dirname
 
+def downloadFragmentAgg(url):
+	content = cached_url.get(url + '?json=1')
+	content = yaml.load(content, Loader=yaml.FullLoader)
+	b = BeautifulSoup(content['content'], 'html.parser')
+	for item in b.find_all('a'):
+		sub_url = item['href']
+		yield downloadtoc(sub_url)
+
 def download(filename = None, url = None, dirname = 'original'):
 	content = [] # no chapter name, no comments
 	result = [] # with chapter name, no comments
@@ -140,8 +148,8 @@ def process():
 		download(url = 'https://www.evernote.com/l/AO_aeRztT0BOsrziVg2JkOguEXPdXd1g1oQ'),
 		download(url = 'https://www.evernote.com/l/AO8Kzrbwz3RFMaBNpVHK761skS4nm3LbD1Y'),
 		download(url = 'https://www.evernote.com/l/AO_c2o2SX7NCUJkHIkCzX70YOBMrS_3VeCM', dirname = 'other'),
-		downloadtoc(url = 'https://www.evernote.com/l/AO8Ep_mBTYZIYp2dP5iV5_25MvmtKBV81Wk')
-	] + list(downloadAgg(url = 'https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw'))
+	] + list(downloadAgg(url = 'https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')) 
+	+ + list(downloadFragmentAgg(url = 'https://www.evernote.com/l/AO9x3HSQu4BMLYK-NT91Rl4z7OzA5h9onMg'))
 
 	result = [([countWord(chapter) for chapter in x[0]], 
 		x[1], x[2]) for x in result]
