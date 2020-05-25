@@ -67,6 +67,7 @@ def downloadtoc(url):
 	os.system('rm -rf fragment/%s > /dev/null 2>&1' % dirname)
 	mkdirs('fragment', 'fragment/' + dirname, 'fragment/raw', 'fragment/raw/' + dirname)
 	content = []
+	result = []
 	for item in b.find_all('a'):
 		sub_url = item['href']
 		text, title, _, raw_text = getContent(sub_url + '?json=1')
@@ -75,7 +76,8 @@ def downloadtoc(url):
 		with open('fragment/raw/%s/%s.md' % (dirname, title), 'w') as f:
 			f.write(raw_text)
 		content.append(text)
-	result = clearText(''.join(content))
+		result.append('\n\n\n==== %s  ===\n\n\n' % title + text)
+	result = clearText(''.join(result))
 	with open('fragment/%s/total.md' % dirname, 'w') as f:
 		f.write(result)
 	return content, 'fragment', dirname
