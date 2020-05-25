@@ -128,7 +128,7 @@ def downloadAgg(url):
 
 def process():
 	word_count = 0
-	result = [
+	result = ([
 		download('学霸要同我困觉', url = 'https://www.evernote.com/l/AO-wRhOju25ISYFo1zTtJkbB_ngPEfsEm6U'),
 		download('我喜欢的Omega要上我', url = 'https://www.evernote.com/l/AO_feS-OQUdCELC_K55hc4B_iQ7cq2SwAMc'),
 		download('城市的另一边', url = 'https://www.evernote.com/l/AO_672HguTBASYJX8xYB_wpilOnLu0pXfZY'),
@@ -149,7 +149,7 @@ def process():
 		download(url = 'https://www.evernote.com/l/AO8Kzrbwz3RFMaBNpVHK761skS4nm3LbD1Y'),
 		download(url = 'https://www.evernote.com/l/AO_c2o2SX7NCUJkHIkCzX70YOBMrS_3VeCM', dirname = 'other'),
 	] + list(downloadAgg(url = 'https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')) 
-	+ list(downloadFragmentAgg(url = 'https://www.evernote.com/l/AO9x3HSQu4BMLYK-NT91Rl4z7OzA5h9onMg'))
+	+ list(downloadFragmentAgg(url = 'https://www.evernote.com/l/AO9x3HSQu4BMLYK-NT91Rl4z7OzA5h9onMg')))
 
 	result = [([countWord(chapter) for chapter in x[0]], 
 		x[1], x[2]) for x in result]
