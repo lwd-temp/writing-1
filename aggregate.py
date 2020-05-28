@@ -10,6 +10,8 @@ import os
 from telegram_util import compactText, matchKey
 from opencc import OpenCC
 cc = OpenCC('s2tw')
+from util import commit
+from note import Note
 
 def clearText(content):
 	for key in ['next', 'Next', 'previous', 'Previous']:
@@ -162,15 +164,6 @@ def process():
 		for sub_word_count, dirname, filename in result:
 			if '大纲' not in filename:
 				f.write('%s %d %s\n' % (filename, sum(sub_word_count), str(sub_word_count)))
-
-	command = 'git add . && git commit -m "%s" && git push -u -f'
-	if len(sys.argv) > 1:
-		message = sys.argv[1]
-	else:
-		message = 'commit'
-	if message == 'notail':
-		message = 'auto_commit'
-	os.system(command % message)
 
 if __name__ == '__main__':
 	process()
