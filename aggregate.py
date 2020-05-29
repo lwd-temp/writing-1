@@ -1,49 +1,28 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from bs4 import BeautifulSoup
-import cached_url
-import yaml
-import datetime
-import sys
 import os
-from telegram_util import compactText, matchKey
 from opencc import OpenCC
+from note import Note, clearText
+import random
 cc = OpenCC('s2tw')
-from util import commit
-from note import Note
 
 def mkdirs(*args):
 	for arg in args:
 		os.system('mkdir %s > /dev/null 2>&1' % arg)
 
-def download(filename = None, url = None, dirname = 'original'):
-	content = [] # no chapter name, no comments
-	result = [] # with chapter name, no comments
-	raw_result = [] # with chapter name and comments
-	while url:
-		text, title, url, raw_text = getContent(url + '?json=1')
-		if not filename:
-			filename = title
-			if '大纲' in filename:
-				dirname = 'other'
-		content.append(text)
-		result.append('\n\n\n==== %s  ===\n\n\n' % title + text)
-		raw_result.append('\n\n\n==== %s  ===\n\n\n' % title + raw_text)
-	result = clearText(''.join(result))
-	mkdirs(dirname, 'txt', 'traditional', 'raw')
-	with open('%s/%s.md' % (dirname, filename), 'w') as f:
-		f.write(result)
-	with open('txt/%s.txt' % filename, 'w') as f:
-		f.write(result)
-	with open('traditional/%s.md' % cc.convert(filename), 'w') as f:
-		f.write(cc.convert(result))
-	with open('raw/%s.md' % filename, 'w') as f:
-		f.write(''.join(raw_result))
-	return content, dirname, filename
+def getRaw(notes):
+	return ''.join(['\n\n\n==== %s  ===\n\n\n' % note.title + 
+		note.raw_text for note in notes])
 
-def processNote(url, title, series):
+def getContent(notes):
+	text = ''.join(['\n\n\n==== %s  ===\n\n\n' % note.title + 
+		note.text for note in notes if '【大纲】' not in note.title])
+	return clearText(text)
+
+def processNote(url, title, dirname):
 	root_note = Note(url)
+
 	if root_note.isNewFormat():
 		# 看看 evernote_urls 能不能 compute on the fly, 需不需要
 		# 我担心 translate 是最花时间的
@@ -56,9 +35,36 @@ def processNote(url, title, series):
 			notes.append(note)
 			sub_url = note.next_url
 
+	mkdirs(dirname, 'txt', 'traditional', 'raw')
+	content = getContent(notes)
+	with open('%s/%s.md' % (dirname, title), 'w') as f:
+		f.write(content)
+	with open('txt/%s.txt' % title, 'w') as f:
+		f.write(content)
+	if random.random() < 0.05:
+		with open('traditional/%s.md' % cc.convert(title), 'w') as f:
+			f.write(cc.convert(content))
+	with open('raw/%s.md' % title, 'w') as f:
+		f.write(getRaw(notes))
+	if dirname in ['critics', 'original']:
+		word_count = [note.word_count for note in notes]
+		with open('other/word_count_detail.txt', 'a') as f:
+			f.write('%s %d %s\n' % (title, sum(word_count), str(word_count)))
+
 def commit():
 	command = 'git add . && git commit -m auto_commit && git push -u -f'
 	os.system(command % message)
+
+def getDirName(series):
+	series_map = {
+		'笔记': 'critics', 
+		'旧稿': 'other', 
+		'其他': 'other', 
+		'大纲': 'other'}
+	for key in series_map:
+		if key in series:
+			return series_map[key]
+	return 'original'
 
 def process(root_url):
 	os.system('rm other/word_count_detail.txt')
@@ -67,19 +73,11 @@ def process(root_url):
 	series = None
 	for item in note.soup.find_all('div'):
 		if item.find('a'):
-			processNote(item['href'], item.text, series)
+			processNote(item['href'], item.text, getDirName(series))
 		else:
 			series = item.text.strip() or series
 
-# def process():
-# 	processOldFormat('https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')
-
-# 	# 可以每次append
-# result = [([countWord(chapter) for chapter in x[0]]
-# 	with open('other/word_count_detail.txt', 'w') as f:
-# 		for sub_word_count, dirname, filename in result:
-# 			if '大纲' not in filename:
-# 				f.write('%s %d %s\n' % (filename, sum(sub_word_count), str(sub_word_count)))
+	# commit()
 
 if __name__ == '__main__':
 	process('https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')
