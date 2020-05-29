@@ -4,7 +4,6 @@
 import os
 from opencc import OpenCC
 from note import Note, clearText
-import random
 cc = OpenCC('s2tw')
 
 def mkdirs(*args):
@@ -44,12 +43,8 @@ def processNote(url, title, dirname):
 		f.write(content)
 	with open('txt/%s.txt' % title, 'w') as f:
 		f.write(content)
-	global total_translation_time
-	start = time.time()
-	if random.random() < 0.05:
-		with open('traditional/%s.md' % cc.convert(title), 'w') as f:
-			f.write(cc.convert(content))
-	total_translation_time += time.time() - start
+	with open('traditional/%s.md' % cc.convert(title), 'w') as f:
+		f.write(cc.convert(content))
 	with open('raw/%s.md' % title, 'w') as f:
 		f.write(getRaw(notes))
 	if dirname in ['critics', 'original']:
@@ -73,7 +68,6 @@ def getDirName(series):
 	return 'original'
 
 def process(root_url):
-	start1 = time.time()
 	mkdirs('other')
 	os.system('rm other/word_count_detail.txt')
 
@@ -85,8 +79,6 @@ def process(root_url):
 			processNote(link['href'], link.text, getDirName(series))
 		else:
 			series = item.text.strip() or series
-
-	start = time.time()
 	commit()
 
 if __name__ == '__main__':
