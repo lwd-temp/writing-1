@@ -10,7 +10,7 @@ cc = OpenCC('s2tw')
 import time
 total_translation_time = 0
 
-times_count = [0] * 8
+times_count = [0] * 12
 
 def mkdirs(*args):
 	for arg in args:
@@ -98,7 +98,8 @@ def process(root_url):
 	print(time.time() - start, 'commit time')
 	print('translation_time', total_translation_time)
 	print('total_time', time.time() - start1)
-	print(times_count)
+	for x in range(1, 11):
+		print(times_count[x] - times_count[x - 1])
 
 if __name__ == '__main__':
 	process('https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')

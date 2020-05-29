@@ -39,10 +39,8 @@ def getTextSoup(content):
 	return soup
 
 def addTime(list1, list2):
-	sum_list = []
-	for (item1, item2) in zip(list1, list2):
-		sum_list.append(item1 + item2)
-	return sum_list
+	for index, x in enumerate(list2):
+		list1[index] += x
 
 class Note(object):
 	def __init__(self, url, times_count):
@@ -71,7 +69,7 @@ class Note(object):
 			if c.isalpha() and ord(c) > 255])
 		times.append(time.time())
 		self.times = times
-		times_count = addTime(times_count, self.times)
+		addTime(times_count, self.times)
 
 	def isNewFormat(self):
 		for item in [self.soup.text, self.title]:
