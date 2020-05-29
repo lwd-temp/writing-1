@@ -60,7 +60,7 @@ class Note(object):
 				return False
 		if len(self.evernote_urls) == 0:
 			return False
-		if len(self.text) / 2 < sum(
+		if len(self.text) < sum(
 			[len(url) for url in self.evernote_urls]):
 			return True
 		return len(self.evernote_urls) > 3
