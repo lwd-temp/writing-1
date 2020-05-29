@@ -7,6 +7,9 @@ from note import Note, clearText
 import random
 cc = OpenCC('s2tw')
 
+import time
+total_translation_time = 0
+
 def mkdirs(*args):
 	for arg in args:
 		os.system('mkdir %s > /dev/null 2>&1' % arg)
@@ -44,8 +47,11 @@ def processNote(url, title, dirname):
 		f.write(content)
 	with open('txt/%s.txt' % title, 'w') as f:
 		f.write(content)
+	global total_translation_time
+	start = time.time()
 	with open('traditional/%s.md' % cc.convert(title), 'w') as f:
 		f.write(cc.convert(content))
+	total_translation_time += time.time() - start
 	with open('raw/%s.md' % title, 'w') as f:
 		f.write(getRaw(notes))
 	if dirname in ['critics', 'original']:
@@ -82,6 +88,7 @@ def process(root_url):
 			series = item.text.strip() or series
 
 	commit()
+	print(total_translation_time)
 
 if __name__ == '__main__':
 	process('https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')
