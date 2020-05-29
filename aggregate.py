@@ -10,6 +10,8 @@ cc = OpenCC('s2tw')
 import time
 total_translation_time = 0
 
+times_count = [0] * 8
+
 def mkdirs(*args):
 	for arg in args:
 		os.system('mkdir %s > /dev/null 2>&1' % arg)
@@ -26,18 +28,20 @@ def getContent(notes):
 		note.text for note in notes])
 	return clearText(text)
 
+
+
 def processNote(url, title, dirname):
-	root_note = Note(url)
+	root_note = Note(url, times_count)
 
 	if root_note.isNewFormat():
 		# 看看 evernote_urls 能不能 compute on the fly, 需不需要
 		# 我担心 translate 是最花时间的
-		notes = [ Note(sub_url) for sub_url in root_note.evernote_urls]
+		notes = [ Note(sub_url, times_count) for sub_url in root_note.evernote_urls]
 	else:
 		sub_url = root_note.next_url
 		notes = [root_note]
 		while sub_url:
-			note = Note(sub_url)
+			note = Note(sub_url, times_count)
 			notes.append(note)
 			sub_url = note.next_url
 
@@ -80,7 +84,7 @@ def process(root_url):
 	mkdirs('other')
 	os.system('rm other/word_count_detail.txt')
 
-	note = Note(root_url)
+	note = Note(root_url, times_count)
 	series = None
 	for item in note.soup.find_all('div'):
 		link = item.find('a')
@@ -94,6 +98,7 @@ def process(root_url):
 	print(time.time() - start, 'commit time')
 	print('translation_time', total_translation_time)
 	print('total_time', time.time() - start1)
+	print(times_count)
 
 if __name__ == '__main__':
 	process('https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')
