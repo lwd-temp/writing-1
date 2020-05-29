@@ -45,15 +45,20 @@ def download(filename = None, url = None, dirname = 'original'):
 def processNote(url, title, series):
 	root_note = Note(url)
 	if root_note.isNewFormat():
-		notes = [ Note(url) for url in root_note.evernote_urls]
-		for url in root_note.evernote_urls:
-			note = Note(url)
-			content.append(text)
-			result.append('\n\n\n==== %s  ===\n\n\n' % title + text)
-			raw_result.append('\n\n\n==== %s  ===\n\n\n' % title + raw_text)
-		result = clearText(''.join(result))
-	# 判断format
+		# 看看 evernote_urls 能不能 compute on the fly, 需不需要
+		# 我担心 translate 是最花时间的
+		notes = [ Note(sub_url) for sub_url in root_note.evernote_urls]
+	else:
+		sub_url = root_note.next_url
+		notes = [root_note]
+		while sub_url:
+			note = Note(sub_url)
+			notes.append(note)
+			sub_url = note.next_url
 
+def commit():
+	command = 'git add . && git commit -m auto_commit && git push -u -f'
+	os.system(command % message)
 
 def process(root_url):
 	os.system('rm other/word_count_detail.txt')
