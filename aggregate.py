@@ -26,8 +26,6 @@ def processNote(url, title, dirname):
 	root_note = Note(url)
 
 	if root_note.isNewFormat():
-		# 看看 evernote_urls 能不能 compute on the fly, 需不需要
-		# 我担心 translate 是最花时间的
 		notes = [ Note(sub_url) for sub_url in root_note.evernote_urls]
 	else:
 		sub_url = root_note.next_url
