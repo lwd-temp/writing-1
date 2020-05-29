@@ -44,9 +44,8 @@ def processNote(url, title, dirname):
 		f.write(content)
 	with open('txt/%s.txt' % title, 'w') as f:
 		f.write(content)
-	if random.random() < 0.05:
-		with open('traditional/%s.md' % cc.convert(title), 'w') as f:
-			f.write(cc.convert(content))
+	with open('traditional/%s.md' % cc.convert(title), 'w') as f:
+		f.write(cc.convert(content))
 	with open('raw/%s.md' % title, 'w') as f:
 		f.write(getRaw(notes))
 	if dirname in ['critics', 'original']:
@@ -56,7 +55,7 @@ def processNote(url, title, dirname):
 
 def commit():
 	command = 'git add . && git commit -m auto_commit && git push -u -f'
-	os.system(command % message)
+	os.system(command)
 
 def getDirName(series):
 	series_map = {
@@ -70,6 +69,7 @@ def getDirName(series):
 	return 'original'
 
 def process(root_url):
+	mkdirs('other')
 	os.system('rm other/word_count_detail.txt')
 
 	note = Note(root_url)
@@ -81,7 +81,7 @@ def process(root_url):
 		else:
 			series = item.text.strip() or series
 
-	# commit()
+	commit()
 
 if __name__ == '__main__':
 	process('https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')
