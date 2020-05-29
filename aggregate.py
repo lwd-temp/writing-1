@@ -16,8 +16,11 @@ def getRaw(notes):
 		note.raw_text for note in notes])
 
 def getContent(notes):
+	outline_count = sum(['大纲' in note.title for note in notes])
+	if outline_count < len(notes) / 2:
+		notes = [note for note in notes if '【大纲】' not in note.title]
 	text = ''.join(['\n\n\n==== %s  ===\n\n\n' % note.title + 
-		note.text for note in notes if '【大纲】' not in note.title])
+		note.text for note in notes])
 	return clearText(text)
 
 def processNote(url, title, dirname):
