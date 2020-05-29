@@ -49,8 +49,9 @@ def processNote(url, title, dirname):
 		f.write(content)
 	global total_translation_time
 	start = time.time()
-	with open('traditional/%s.md' % cc.convert(title), 'w') as f:
-		f.write(cc.convert(content))
+	if random.random() < 0.05:
+		with open('traditional/%s.md' % cc.convert(title), 'w') as f:
+			f.write(cc.convert(content))
 	total_translation_time += time.time() - start
 	with open('raw/%s.md' % title, 'w') as f:
 		f.write(getRaw(notes))
@@ -75,6 +76,7 @@ def getDirName(series):
 	return 'original'
 
 def process(root_url):
+	start1 = time.time()
 	mkdirs('other')
 	os.system('rm other/word_count_detail.txt')
 
@@ -87,8 +89,11 @@ def process(root_url):
 		else:
 			series = item.text.strip() or series
 
+	start = time.time()
 	commit()
-	print(total_translation_time)
+	print(time.time() - start, 'commit time')
+	print('translation_time', total_translation_time)
+	print('total_time', time.time() - start1)
 
 if __name__ == '__main__':
 	process('https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')
