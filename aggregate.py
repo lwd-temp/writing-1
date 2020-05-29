@@ -72,8 +72,9 @@ def process(root_url):
 	note = Note(root_url)
 	series = None
 	for item in note.soup.find_all('div'):
-		if item.find('a'):
-			processNote(item['href'], item.text, getDirName(series))
+		link = item.find('a')
+		if link:
+			processNote(link['href'], link.text, getDirName(series))
 		else:
 			series = item.text.strip() or series
 
