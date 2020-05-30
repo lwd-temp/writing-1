@@ -132,6 +132,8 @@ Python學習 https://t.me/Python4Developer
 
 Matters討論 https://t.me/thematters
 
+雜談 https://t.me/weibotan
+
 存檔：
 
 文章精選 http://git.io/JvxU5
