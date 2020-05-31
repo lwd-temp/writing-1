@@ -52,8 +52,6 @@ HIV互助 https://t.me/Hiv_viH
 
 寒冬杂志 https://t.me/bitterwinter
 
-电报群推广 https://t.me/FOCUSTELEGRAMGROUPLINK
-
 文宣中国 https://t.me/VoiceofCN
 
 反送中已核实资讯 https://t.me/antiextraditionverifiednews
@@ -96,6 +94,8 @@ TGCN频道搜索 https://t.me/zh_groups_bot
 
 墙内反思 https://t.me/qiangneifansi
 
+文学摘录 https://t.me/weibotan
+
 群组：
 
 读书讨论 https://t.me/dushufenxiang_chat
@@ -131,8 +131,6 @@ Python学习 https://t.me/Python4Developer
 台湾求职 https://t.me/taiwanjob
 
 Matters讨论 https://t.me/thematters
-
-文学摘录 https://t.me/weibotan
 
 存档：
 
