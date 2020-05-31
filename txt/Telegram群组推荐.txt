@@ -132,7 +132,7 @@ Python学习 https://t.me/Python4Developer
 
 Matters讨论 https://t.me/thematters
 
-杂谈 https://t.me/weibotan
+文学摘录 https://t.me/weibotan
 
 存档：
 
