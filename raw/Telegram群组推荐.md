@@ -98,6 +98,8 @@ HIV互助 https://t.me/Hiv_viH
 
 文学摘录 https://t.me/weibotan
 
+群组频道滚动推荐 https://t.me/channel_push
+
 群组：
 
 读书讨论 https://t.me/dushufenxiang_chat

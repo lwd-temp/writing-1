@@ -94,6 +94,8 @@ HIV互助 https://t.me/Hiv_viH
 
 文學摘錄 https://t.me/weibotan
 
+群組頻道滾動推薦 https://t.me/channel_push
+
 群組：
 
 讀書討論 https://t.me/dushufenxiang_chat
