@@ -62,8 +62,6 @@ HIV互助 https://t.me/Hiv_viH
 
 政治与历史 https://t.me/Solitorian
 
-TGCN频道搜索 https://t.me/zh_groups_bot
-
 文章精选 https://t.me/daily_read
 
 推特精选 https://t.me/twitter_subscriptions
