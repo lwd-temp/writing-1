@@ -61,6 +61,9 @@ class Note(object):
 				return False
 		if len(self.evernote_urls) == 0:
 			return False
+		if '工作' in self.title:
+			print(self.title, self.text, len(self.text),
+				sum([len(url) for url in self.evernote_urls]))
 		if len(self.text) < sum(
 			[len(url) for url in self.evernote_urls]):
 			return True
