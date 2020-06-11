@@ -94,7 +94,9 @@ HIV互助 https://t.me/Hiv_viH
 
 文學摘錄 https://t.me/weibotan
 
-群組頻道滾動推薦 https://t.me/channel_push
+頻道合集 https://t.me/channel_push
+
+歐洲新聞 https://t.me/europechinese
 
 群組：
 
