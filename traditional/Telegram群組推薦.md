@@ -98,6 +98,8 @@ HIV互助 https://t.me/Hiv_viH
 
 歐洲新聞 https://t.me/europechinese
 
+政治隨想 https://t.me/gravitysworm
+
 群組：
 
 讀書討論 https://t.me/dushufenxiang_chat
