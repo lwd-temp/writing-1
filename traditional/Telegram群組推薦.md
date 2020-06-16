@@ -100,6 +100,8 @@ HIV互助 https://t.me/Hiv_viH
 
 政治隨想 https://t.me/gravitysworm
 
+方舟子 https://t.me/fangshimin
+
 群組：
 
 讀書討論 https://t.me/dushufenxiang_chat
@@ -133,6 +135,8 @@ Python學習 https://t.me/Python4Developer
 臺灣求職 https://t.me/taiwanjob
 
 Matters討論 https://t.me/thematters
+
+寫作討論 https://t.me/writing_exchange
 
 存檔：
 
