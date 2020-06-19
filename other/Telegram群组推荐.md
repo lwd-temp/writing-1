@@ -138,6 +138,10 @@ Matters讨论 https://t.me/thematters
 
 写作讨论 https://t.me/writing_exchange
 
+机器人：
+
+搜索消息 https://t.me/msg_index_bot
+
 存档：
 
 文章精选 http://git.io/JvxU5

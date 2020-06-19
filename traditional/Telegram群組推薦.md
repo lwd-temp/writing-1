@@ -138,6 +138,10 @@ Matters討論 https://t.me/thematters
 
 寫作討論 https://t.me/writing_exchange
 
+機器人：
+
+搜索消息 https://t.me/msg_index_bot
+
 存檔：
 
 文章精選 http://git.io/JvxU5
