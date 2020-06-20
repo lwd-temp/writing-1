@@ -114,8 +114,6 @@ Telegram Bot Engineering Discuss https://t.me/pythontelegrambotgroup
 
 SLGBTQIA大雜燴 https://t.me/marriage_equality
 
-Telegram新手交流 https://t.me/layger5566
-
 电报群导航 https://t.me/navi_group_share
 
 Python自学 https://t.me/P_Y_T_H_O_N
