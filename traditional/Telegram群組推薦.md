@@ -102,6 +102,10 @@ HIV互助 https://t.me/Hiv_viH
 
 方舟子 https://t.me/fangshimin
 
+紀錄片 https://t.me/chinesedocumentary
+
+Telegram新手頻道 https://t.me/newtoTG
+
 群組：
 
 讀書討論 https://t.me/dushufenxiang_chat
@@ -135,6 +139,8 @@ Python學習 https://t.me/Python4Developer
 Matters討論 https://t.me/thematters
 
 寫作討論 https://t.me/writing_exchange
+
+Telegram新手幫助 https://t.me/Newbie_Chat
 
 機器人：
 
