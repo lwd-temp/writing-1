@@ -90,8 +90,6 @@ HIV互助 https://t.me/Hiv_viH
 
 歐美文學 https://t.me/oneiroszzz
 
-牆內反思 https://t.me/qiangneifansi
-
 文學摘錄 https://t.me/weibotan
 
 頻道合集 https://t.me/channel_push

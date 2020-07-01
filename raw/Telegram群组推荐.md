@@ -94,8 +94,6 @@ HIV互助 https://t.me/Hiv_viH
 
 欧美文学 https://t.me/oneiroszzz
 
-墙内反思 https://t.me/qiangneifansi
-
 文学摘录 https://t.me/weibotan
 
 频道合集 https://t.me/channel_push
