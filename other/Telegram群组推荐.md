@@ -104,6 +104,8 @@ HIV互助 https://t.me/Hiv_viH
 
 Telegram新手频道 https://t.me/newtoTG
 
+社科讲座 https://t.me/chwebinars
+
 群组：
 
 读书讨论 https://t.me/dushufenxiang_chat
