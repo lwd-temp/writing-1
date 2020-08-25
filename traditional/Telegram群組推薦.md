@@ -128,8 +128,6 @@ Python交流 https://t.me/py_zh
 
 Telegram搜索 https://t.me/sssoou_resource
 
-電報群推廣 https://t.me/joinchat/F7Z-RT15AV_zH_mUPCQTvQ
-
 青年講座 https://t.me/brewnote2019
 
 Python學習 https://t.me/Python4Developer
