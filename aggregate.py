@@ -4,6 +4,8 @@
 import os
 from opencc import OpenCC
 from note import Note, clearText
+from bs4 import BeautifulSoup
+import cached_url
 cc = OpenCC('s2tw')
 
 def mkdirs(*args):
@@ -79,5 +81,22 @@ def process(root_url):
 			series = item.text.strip() or series
 	commit()
 
+def processTelegraphSingle(url, title, dirname):
+	raw_content = cached_url.get(url)
+	soup = BeautifulSoup(raw_content, 'html.parser')
+	content = soup.text
+	with open('%s/%s.md' % (dirname, title), 'w') as f:
+		f.write(content)
+
+def processTelegraph(root_url):
+	note = Note(root_url)
+	for item in note.soup.find_all('div'):
+		link = item.find('a')
+		if link:
+			processTelegraphSingle(link['href'], link.text, 'critics')
+	commit()
+
+
 if __name__ == '__main__':
-	process('https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')
+	# process('https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')
+	processTelegraph('https://www.evernote.com/l/AO_PIYii3ddBnZUE832bbYtnMkNqfJnZxOU')
