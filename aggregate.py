@@ -89,7 +89,7 @@ def processTelegraphSingle(url, title, dirname):
 		for item in soup.find_all(tag):
 			item.replace_with('\n' + item.text + '\n')
 	content = soup.text
-	for _ in range(5):
+	for _ in range(10):
 		content.replace('\n\n\n', '\n\n')
 	with open('%s/%s.md' % (dirname, title), 'w') as f:
 		f.write(content.strip())
