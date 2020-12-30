@@ -84,7 +84,7 @@ def process(root_url):
 def processTelegraphSingle(url, title, dirname):
 	raw_content = cached_url.get(url)
 	soup = BeautifulSoup(raw_content, 'html.parser').find('article')
-	content = soup.text
+	content = soup.getText(separator='\n')
 	with open('%s/%s.md' % (dirname, title), 'w') as f:
 		f.write(content)
 
