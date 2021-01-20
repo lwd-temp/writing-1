@@ -57,6 +57,8 @@ def commit():
 	os.system(command)
 
 def getDirName(series):
+	if not series:
+		return 'critics'
 	series_map = {
 		'笔记': 'critics', 
 		'旧稿': 'other', 
@@ -103,5 +105,5 @@ def processTelegraph(root_url):
 
 
 if __name__ == '__main__':
-	# process('https://www.evernote.com/l/AO8X_19lBzpIFJ2QRKX0hE_Hzrc-qBlE4Yw')
-	processTelegraph('https://www.evernote.com/l/AO_PIYii3ddBnZUE832bbYtnMkNqfJnZxOU')
+	process('https://www.evernote.com/l/AO_PIYii3ddBnZUE832bbYtnMkNqfJnZxOU')
+	# processTelegraph('https://www.evernote.com/l/AO_PIYii3ddBnZUE832bbYtnMkNqfJnZxOU')
