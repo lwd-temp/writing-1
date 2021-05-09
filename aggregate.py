@@ -103,7 +103,5 @@ def processTelegraph(root_url):
 			processTelegraphSingle(link['href'], link.text, 'critics')
 	commit()
 
-
 if __name__ == '__main__':
-	process('https://www.evernote.com/l/AO_PIYii3ddBnZUE832bbYtnMkNqfJnZxOU')
-	# processTelegraph('https://www.evernote.com/l/AO_PIYii3ddBnZUE832bbYtnMkNqfJnZxOU')
+	processNote('https://www.evernote.com/l/AO9YbszUGulCgKVT1MW7HPfWGEoGt9M9rac', '春子', 'original')
