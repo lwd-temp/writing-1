@@ -105,4 +105,4 @@ def processTelegraph(root_url):
 
 if __name__ == '__main__':
 	os.system('rm other/word_count_detail.txt')
-	processNote('https://www.evernote.com/l/AO9YbszUGulCgKVT1MW7HPfWGEoGt9M9rac', '风景旧曾谙', 'original')
+	processNote('https://www.evernote.com/l/AO-ymeqf7aBOL5XPKPy5KtyUSIixs0AoXW4', '窗外尘尘事，窗中梦梦身', 'original')
