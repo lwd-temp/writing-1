@@ -76,7 +76,6 @@ def process(root_url):
 	for item in note.soup.find_all('div'):
 		link = item.find('a')
 		if link and 'active' in item.text:
-			print(link.text)
 			processNote(link['href'], link.text, getDirName(series))
 		else:
 			series = item.text.strip() or series
