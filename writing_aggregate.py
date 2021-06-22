@@ -71,13 +71,12 @@ def getDirName(series):
 
 def process(root_url):
 	mkdirs('other')
-	os.system('rm other/word_count_detail.txt')
-
 	note = Note(root_url)
 	series = None
 	for item in note.soup.find_all('div'):
 		link = item.find('a')
-		if link:
+		print(item.text)
+		if link and 'active' in item.text:
 			processNote(link['href'], link.text, getDirName(series))
 		else:
 			series = item.text.strip() or series
@@ -105,4 +104,4 @@ def processTelegraph(root_url):
 
 if __name__ == '__main__':
 	os.system('rm other/word_count_detail.txt')
-	processNote('https://www.evernote.com/l/AO-ymeqf7aBOL5XPKPy5KtyUSIixs0AoXW4', '窗外尘尘事，窗中梦梦身', 'original')
+	process('https://www.evernote.com/shard/s239/sh/17ff5f65-073a-4814-9d90-44a5f4844fc7/ceb73ea81944e18c4bb6a1f5542edd6d')
