@@ -52,10 +52,6 @@ def processNote(url, title, dirname):
 		with open('other/word_count_detail.txt', 'a') as f:
 			f.write('%s %d %s\n' % (title, sum(word_count), str(word_count)))
 
-def commit():
-	command = 'git add . && git commit -m auto_commit && git push -u -f'
-	os.system(command)
-
 def getDirName(series):
 	if not series:
 		return 'critics'
@@ -79,7 +75,6 @@ def process(root_url):
 			processNote(link['href'], link.text, getDirName(series))
 		else:
 			series = item.text.strip() or series
-	commit()
 
 def processTelegraphSingle(url, title, dirname):
 	raw_content = cached_url.get(url)
@@ -99,7 +94,6 @@ def processTelegraph(root_url):
 		link = item.find('a')
 		if link:
 			processTelegraphSingle(link['href'], link.text, 'critics')
-	commit()
 
 if __name__ == '__main__':
 	os.system('rm other/word_count_detail.txt')
