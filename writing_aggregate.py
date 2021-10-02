@@ -97,4 +97,5 @@ def processTelegraph(root_url):
 
 if __name__ == '__main__':
 	os.system('rm other/word_count_detail.txt')
+	os.system('touch other/word_count_detail.txt')
 	process('https://www.evernote.com/shard/s239/sh/17ff5f65-073a-4814-9d90-44a5f4844fc7/ceb73ea81944e18c4bb6a1f5542edd6d')
