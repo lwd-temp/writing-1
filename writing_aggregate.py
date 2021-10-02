@@ -71,8 +71,9 @@ def process(root_url):
 	series = None
 	for item in note.soup.find_all('div'):
 		link = item.find('a')
-		if link and 'active' in item.text:
-			processNote(link['href'], link.text, getDirName(series))
+		if link:
+			if 'active' in item.text:
+				processNote(link['href'], link.text, getDirName(series))
 		else:
 			series = item.text.strip() or series
 
@@ -98,4 +99,4 @@ def processTelegraph(root_url):
 if __name__ == '__main__':
 	os.system('rm other/word_count_detail.txt')
 	os.system('touch other/word_count_detail.txt')
-	process('https://www.evernote.com/shard/s239/sh/17ff5f65-073a-4814-9d90-44a5f4844fc7/ceb73ea81944e18c4bb6a1f5542edd6d')
+	process('https://www.evernote.com/shard/s239/sh/45f129b8-da3a-4e32-b1c0-b9090e825480/ca0e45308f8c59735d6c8892b96ece88')
