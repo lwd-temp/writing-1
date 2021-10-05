@@ -5,6 +5,7 @@ import os
 from opencc import OpenCC
 from note import Note, clearText
 from bs4 import BeautifulSoup
+from telegram_util import commitRepo
 import cached_url
 cc = OpenCC('s2tw')
 
@@ -76,6 +77,7 @@ def process(root_url):
 				processNote(link['href'], link.text, getDirName(series))
 		else:
 			series = item.text.strip() or series
+	commitRepo(delay_minute=0)
 
 def processTelegraphSingle(url, title, dirname):
 	raw_content = cached_url.get(url)
